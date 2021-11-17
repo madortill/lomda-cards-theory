@@ -552,7 +552,35 @@ const DATA = {
                                 </ol>`
                             },
                         ],
+                        "רכב שטח" : [
+                            {
+                                cardType: `picAndText`,
+                                pic: `../assets/images/pics/road16.png`,
+                                content: `רכב מנועי המיועד לפני מבנהו לנוע <b>בדרכי עפר בלבד</b>, ומתקיימים בו אלה:
+                                <ul>
+                                <li> נע על <b>4 גלגלים לפחות</b>.
+                                <li> נפח מנועו אינו עולה על 750 סמ"ק.
+                                <li> משקלו העצמי <b>אינו</b> עולה על 750 ק"ג.
+                                <li> ההיגוי שבו נעשה באמצעות <b>הגה</b>.
+                                <li> הוא <b>צוין ברישיון הרכב כרכב שטח</b>.
+                                </ul>`
+                            },
+                        ],
+                        "רכב בטחון" : [
+                            {
+                                cardType: `text`,
+                                content: `<b>רכבי הבטחון הם:</b> <br>
+                                אמבולנס של מגן דוד אדום, או אמבולנס שניתן לגביו אישור על היותו רכב בטחון מאת מנהל משרד הבריאות או מטעמו, אופנוע להגשת עזרה ראשונה רכב של משטרת ישראל או של צבא הגנה לישראל, רכב לכיבוי שריפות ורכב אחר שאושר על ידי רשות הרישוי כרכב בטחון, כשהם <b>מפיצים בפנס מיוחד אור </b>מהבהב אדום, כחול או אדום-כחול <b>ומשמיעים את האזעקה בסירנה </b>.`
+                            },
+                            {
+                                cardType: `pics`,
+                                pic1: `../assets/images/pics/car1.png`,
+                                pic2: `../assets/images/pics/car2.png`,
+                                pic3: `../assets/images/pics/car3.png`,
+                            },
+                        ],
 
+    
 
                         "" : [
                             {
@@ -673,5 +701,12 @@ CARD_TYPES.youtube = {
     init(card, json) {
         card.querySelector(".youtube").src = json.youtube;
   
+    }
+}
+CARD_TYPES.pics = {
+    init(card, json) {
+        card.querySelector(".pic1").src = json.pic1;
+        card.querySelector(".pic2").src = json.pic2;
+        card.querySelector(".pic3").src = json.pic3;
     }
 }
