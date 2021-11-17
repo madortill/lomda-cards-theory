@@ -58,6 +58,12 @@ body {
   display: none;
 }
 
+br {
+  content: "";
+  display: block;
+  margin-bottom: 6px;
+}
+
 .page .back-btn {
   width: 7vw;
   right: 2vw;
