@@ -431,7 +431,7 @@ const DATA = {
                                 cardType: `picAndText`,
                                 pic: `../assets/images/pics/road2.png`,
                                 content: `כל כביש שתנועת כלי רכב מותרת בו בכיוון אחד בלבד.
-                                תנועה <b>בניגוד</b> לכיוון בדרך חד סטרית מותרת רק על פי <b> הוראת שוטר </b>, או <b> לרכב ביטחון בתפקיד </b>.`
+                                תנועה <b>בניגוד</b> לכיוון בדרך חד סטרית מותרת רק על פי <b> הוראת שוטר </b>, או <b> לרכב ביטחון בתפקיד</b>.`
                             },
                         ],
                         "שולי הכביש" : [
@@ -583,7 +583,7 @@ const DATA = {
                         "רכב תפעולי" : [
                             {
                                 cardType: `picAndText`,
-                                pic: `../assets/images/pics/car.png`,
+                                pic: `../assets/images/pics/car8.png`,
                                 content: `כלי רכב המשמשים על פי רוב לעבודה. רכב תפעולי אינו מוגדר כרכב פרטי, או ציבורי, חלות עליו מגבלות מיוחדות וככלל, הוא <b>רשאי לנוע רק באזורים מוגדרים</b> המכונים "איזור רכב תפעולי". <br>
                                 כך למשל כלי רכב ייעודים הנעים בנמלי אוויר, נמלי ים וכו'.`
                             },
@@ -623,7 +623,7 @@ const DATA = {
                        "טרקטורון" : [
                             {
                                 cardType: `picAndText`,
-                                pic: `../assets/images/pics/car7.png`,
+                                pic: `../assets/images/pics/road16.png`,
                                 content: `טרקטורון הוא טרקטור <b>שנתקיימו בו כל אלה</b>:
                                 <ul>
                                 <li>הוא נע על <b> 4 גלגלים לפחות</b>.</li>
@@ -641,8 +641,9 @@ const DATA = {
                         ],
                         "משקל כולל מותר" : [
                             {
-                                cardType: `picAndText`,
-                                pic: `../assets/images/pics/road.png`,
+                                cardType: `twoPicsAndText`,
+                                pic1: `../assets/images/pics/car10.png`,
+                                pic2: `../assets/images/pics/car11.jpg`,
                                 content: `המשקל העצמי בתוספת משקל האנשים והמטען <b>שהתירה רשות רישוי לרכב הנדון</b> להסיע או להוביל. <br>
                                 "<b>משקל עצמי</b>" – משקל הרכב ללא מטען וללא נהג, לרבות משקל כל אבזרי הרכב ומשקל הדלק, המים והשמן שבו. `
                             },
@@ -1179,5 +1180,12 @@ CARD_TYPES.pics = {
         card.querySelector(".pic1").src = json.pic1;
         card.querySelector(".pic2").src = json.pic2;
         card.querySelector(".pic3").src = json.pic3;
+    }
+}
+CARD_TYPES.twoPicsAndText = {
+    init(card, json) {
+        card.querySelector(".content").innerHTML = json.content;
+        card.querySelector(".pic1").src = json.pic1;
+        card.querySelector(".pic2").src = json.pic2;
     }
 }
