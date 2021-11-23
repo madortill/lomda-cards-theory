@@ -635,7 +635,8 @@ const DATA = {
                         ],
                         "רכב איטי" : [
                             {
-                                cardType: `text`,
+                                cardType: `picAndText`,
+                                pic: `../assets/images/pics/car8.png`,
                                 content: `רכב מנועי שלגביו נקבעה מהירות מקסימלית שאינה עולה על<b> 40 קמ"ש </b>על ידי רשות הרישוי ברישיונו של הרכב או בתקנות אלה.`
                             },
                         ],
@@ -687,10 +688,19 @@ const DATA = {
                                 content: `כיבוי אור הדרך בפנסי החזית, והדלקת אור המעבר, כשמשמעותם בתקנה. <br>
                                 עקרונית מצויד הרכב בשלושה סוגי אורות:
                                 <ul>
-                                <li>אור חניה, המיועד לחניה בלבד ולא לנסיעה. </li>
-                                <li> אור נמוך. </li>
-                                <li> אור דרך ("האור הגבוה"). </li>
+                                <li>אור חניה, המיועד לחניה בלבד ולא לנסיעה. 
+                                <span><img class="sml-pic" src="../assets/images/pics/light1.png"/></span>
+                                </li>
+
+                                <li> אור נמוך. 
+                                <span><img class="sml-pic" src="../assets/images/pics/light2.png"/></span>
+                                </li>
+
+                                <li> אור דרך ("האור הגבוה"). 
+                                <span><img class="sml-pic" src="../assets/images/pics/light3.png"/></span>
+                                </li>
                                 </ul>
+
                                 <b>ה"עמעום" מחליף את אור הדרך באור נמוך.</b>`
                             },
                         ],
@@ -849,7 +859,8 @@ const DATA = {
                                 `
                             },
                             {
-                                cardType: `text`,
+                                cardType: `picAndText`,
+                                pic: `../assets/images/pics/sign1.png`,
                                 content: `נוהג חדש, שגילו צעיר מ-21 אינו רשאי להסיע יותר מ-2 נוסעים (אלא אם נמצא ברכב מלווה).
                                 `
                             },
@@ -919,7 +930,8 @@ const DATA = {
                         ],
                         "כיוון המושבים" : [
                             {
-                                cardType: `text`,
+                                cardType: `picAndText`,
+                                pic: `../assets/images/pics/seats1.png`,
                                 content: `יש לכוון את מושב הנהג, כך שיתאים למידות גופך ואת משענת הראש, כך שיוכל לתמוך בראשך בעת פגיעה מאחור. כך תוכל להגיע בנוחות אל ההגה, הדוושות ושאר מנופי התפעול ותקבל שדה ראיה מרבי, תפעול נוח ויעיל של מערכות הרכב ונהיגה מעייפת פחות.
                                 הקפד על מרחק מתאים מההגה. <br>
                                 
