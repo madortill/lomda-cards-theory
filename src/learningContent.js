@@ -379,6 +379,29 @@ const DATA = {
         ],
         "amountOfQuestions": 3,
         lessons: {
+            //תמרורים
+            "תמרורים": {
+                learningContent: {
+                    "קבוצת תמרורים": {
+                        "מספר תמרור" : [
+                            {
+                                cardType: `picAndText`,
+                                pic: `../assets/images/pics/x.png`,
+                                content: ``
+                            },
+                        ],
+                        "מספר תמרור" : [
+                            {
+                                cardType: `picAndText`,
+                                pic: `../assets/images/pics/x.png`,
+                                content: ``
+                            },
+                        ],
+                    },
+                }
+            },
+
+
             //מצגת 1
             "הגדרת מושגים": {
                 "learningContent": {
