@@ -483,3 +483,13 @@ br {
   position: relative;
   border-radius: 20%;
 }
+
+.square-pic {
+  height: 115px;
+  margin: 0.5em 0;
+  position: relative;
+  width: 115px;
+  transform: translateX(50%);
+  right: 50%;
+  border-radius: 0.5rem;
+}
