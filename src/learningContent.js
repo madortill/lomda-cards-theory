@@ -17,8 +17,9 @@ const AMOUNT_EXAM_QUESTIONS = 30;
 
 /************************      הכנס כמות זמן התחלתית של המבחן      ***********************/
 const TIME_FOR_EXAM = "30:00";
-AM = "10:00";
-  // // דוגמה לנושא
+
+const DATA = { 
+    // // דוגמה לנושא
     // "נושא 1": {
     //     "icon":  "../assets/images/learning/Artboard 4.svg",
     //     // שאלות לנושא הזה
