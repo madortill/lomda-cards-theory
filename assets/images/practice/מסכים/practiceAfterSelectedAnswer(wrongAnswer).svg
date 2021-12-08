@@ -79,7 +79,7 @@
       }
 
       .cls-12 {
-        fill: #27c5f2;
+        fill: #20408C;
       }
 
       .cls-12, .cls-44 {
@@ -132,7 +132,7 @@
       }
 
       .cls-26 {
-        fill: #2be8f7;
+        fill: #324BAF;
       }
 
       .cls-27 {
@@ -196,7 +196,7 @@
       }
 
       .cls-45, .cls-46 {
-        stroke: #27c5f2;
+        stroke: #20408C;
         stroke-width: 25px;
       }
     </style>

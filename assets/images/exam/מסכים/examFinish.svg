@@ -76,11 +76,11 @@
       }
 
       .cls-11, .cls-20 {
-        fill: #2be8f7;
+        fill: #324BAF;
       }
 
       .cls-11, .cls-12, .cls-14, .cls-15, .cls-20 {
-        stroke: #2be8f7;
+        stroke: #324BAF;
       }
 
       .cls-12, .cls-14, .cls-18, .cls-20 {
