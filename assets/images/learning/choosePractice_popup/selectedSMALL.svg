@@ -9,7 +9,7 @@
 
       .cls-2 {
         fill: none;
-        stroke: #414042;
+        stroke: #FFFFFF;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-width: 3px;
