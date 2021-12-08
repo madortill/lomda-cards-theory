@@ -4460,7 +4460,6 @@ const DATA = {
                         "שביל" : [
                             {
                                 cardType: `picAndText`,
-                                // חסרה תמונה
                                 pic: `../assets/images/pics/road4.png`,
                                 content: `דרך או חלק מדרך <b>שאינו כביש</b> שהוקצה לסוג עוברי דרך. <br>
                                 כך למשל שביל להולכי רגל, או שביל לאופניים בלבד.`
@@ -4527,7 +4526,6 @@ const DATA = {
                         "קו עצירה" : [
                             {
                                 cardType: `picAndText`,
-                                // חסרה תמונה 
                                 pic: `../assets/images/pics/road12.png`,
                                 content: `קו לרוחב הכביש או בחלק מרוחבו, <b>המסמן גבול לשם עצירת רכב</b> סמוך לרמזור או לתמרור עצירה או לפני מפגש מסילת ברזל, או במקום שבו שוטר מכוון את התנועה.<br>
                                 כלומר קו עצירה כשלעצמו, אינו מחייב עצירה. הוא מסמן לנהג היכן עליו לעצור, אם הוא נדרש לעשות כן, על פי <b> הוראה חוקית כלשהי </b> (כגון רמזור, תמרור וכו'). <br>
@@ -4537,7 +4535,6 @@ const DATA = {
                         "אזור מיתון תנועה" : [
                             {
                                 cardType: `picAndText`,
-                                // חסרה תמונה 
                                 pic: `../assets/images/pics/road13.png`,
                                 content: `אזור שבו המהירות המרבית המותרת <b> אינה </b> עולה על <b> 30 קמ"ש </b> והוא מסומן בתמרור 222 בכניסה ואליו ו – 223 ביציאה ממנו.`
                             },
@@ -4556,7 +4553,6 @@ const DATA = {
                         "רכב מיושן" : [
                             {
                                 cardType: `picAndText`,
-                                // חסרה תמונה
                                 pic: `../assets/images/pics/road15.png`,
                                 content: `רכב ישן, נקרא בלשון המחוקק "רכב מיושן", אולם לא כל רכב שהיה מכונה כך בלשון העם, יוגדר כזה על ידי המחוקק:
                                 <br>
@@ -5283,8 +5279,8 @@ const DATA = {
                         "פניה ימינה" : [
                             {
                                 cardType: `twoSquarePicsAndText`,    
-                                pic1: `../assets/images/pics/car11.jpg`,// חסר שקופית 8
-                                pic2: `../assets/images/pics/car11.jpg`,//חסר שקופית 8
+                                pic1: `../assets/images/pics/photo9.jpg`,
+                                pic2: `../assets/images/pics/photo7.jpg`,
                                 content: `פניות ימינה יתבצעו באופן הבא:
                                 מימין לימין בצורה חדה. שים לב- פניה ימינה מותרת <b>מכל נתיב אשר מיועד לפניה ימינה</b>.
                                 `
@@ -5301,14 +5297,14 @@ const DATA = {
                         "פניות מכביש חד סטרי" : [
                             {
                                 cardType: `picAndText`,    
-                                pic: `../assets/images/pics/car11.jpg`, // חסר שקופית 9
+                                pic: `../assets/images/pics/photo1.jpg`, 
                                 content: `<b>לכביש חד סטרי - משמאל לשמאל</b>, הכוונה היא מחלקו השמאלי של הנתיב אל חלקו השמאלי בכיוון הנסיעה.
                                 `
                             },
                             {
                                 cardType: `twoPics`,    
-                                pic1: `../assets/images/pics/car11.jpg`, // חסר שקופית 9
-                                pic2: `../assets/images/pics/car11.jpg`, // חסר שקופית 9
+                                pic1: `../assets/images/pics/photo8.jpg`, 
+                                pic2: `../assets/images/pics/photo2.jpg`, 
                                 content1: `<b>לכביש דו סטרי </b>- תמיד לנתיב השמאלי ביותר בקשת רחבה, לצד הימני (במקרה של נתיב אחד בלבד).
                                 `,
                                 content2: `או לנתיב השמאלי ביותר לכייון הנסיעה: 
@@ -5318,15 +5314,15 @@ const DATA = {
                         "פניות מכביש דו סטרי" : [
                             {
                                 cardType: `twoPics`,    
-                                pic1: `../assets/images/pics/car11.jpg`, //חסר שקופית 9
-                                pic2: `../assets/images/pics/car11.jpg`, //חסר שקופית 9
+                                pic1: `../assets/images/pics/photo3.jpg`, 
+                                pic2: `../assets/images/pics/photo4.jpg`,
                                 content1: `לכביש חד סטרי קרוב למרכז הכביש.`, 
                                 content2: `לכביש דו סטרי ממרכז הכביש לנתיב השמאלי ביותר לאותו כיוון נסיעה.
                                 `
                             },
                             {
                                 cardType: `picAndText`,    
-                                pic: `../assets/images/pics/car11.jpg`, //חסר שקופית 9
+                                pic: `../assets/images/pics/photo5.jpg`,
                                 content: `במידה והצומת מרומזרת, ממרכז הכביש בקשת רחבה לנתיב הימני ביותר לאותו כיוון נסיעה.
                                 `
                             },
@@ -5344,7 +5340,7 @@ const DATA = {
                         "פניות פרסה" : [
                             {
                                 cardType: `picAndText`,    
-                                pic: `../assets/images/pics/car11.jpg`, //חסר שקופית 10
+                                pic: `../assets/images/pics/photo6.jpg`,
                                 content: `פנית פרסה היא פניה בה <b>חוזר הנהג אל הכיוון ממנו מגיע</b>. 
                                 פניית פרסה מותרת בתנאים הבאים:
                                 <ol>
