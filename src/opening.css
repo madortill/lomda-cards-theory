@@ -19,13 +19,15 @@
 .page.opening .expand {
   display: flex;
   justify-content: center;
-  flex: 1;
+  /* flex: 1; */
+  margin-top: 4.2rem;
 }
 
 .page.opening .sub-title {
   height: 4vmax;
   margin-top: auto;
   text-align: center;
+  visibility: hidden;
 }
 
 .page.opening .title {

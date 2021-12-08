@@ -37,6 +37,7 @@ var currentCard = 0;
 var currSubjCount = -1;
  // התת נושא שבמרכז העמוד
 var midElement;
+const PASSWORD = 6666;
 
 
 /** @type {(boolean|number)[]} */
@@ -54,11 +55,43 @@ window.addEventListener("load", function () {
         document.querySelector(".page.learning .title").innerHTML = TITLE;
     }
 
-
+    
     let fullScreen = El("div", {cls: "full-screen"});
     document.querySelector(".page.opening").before(fullScreen);
     fullScreen.addEventListener("click", homePage);
+    
+    let popupPassword = 
+    El("div", {cls: "full-screen-password"},
+        El("div", {cls: "popup-password"},
+            El("div", {cls: "text"}, "הכניסו סיסמה"),
+            El("input", {attributes: {class: "input-password", type: "password"}}),
+            El("div", {attributes: {class: "check-password-btn"},
+            listeners: {
+                click: () => {
+                    let pass = document.querySelector(".input-password").value;
+                    if (Number(pass) === PASSWORD) {
+                        document.querySelector(".input-password").classList.add("correct-animation");
+                        document.querySelector(".expand").style.flex = "1";
+                        this.setTimeout(() => {
+                            document.querySelector(".full-screen-password").remove();
+                            document.querySelector(".page.opening .instruction-text").style.visibility = "visible";
+                        },1000)
+                    }
+                    else {
+                        document.querySelector(".input-password").classList.add("wrong-animation");
+                        this.setTimeout(() => {
+                            document.querySelector(".input-password").value = "";
+                            document.querySelector(".input-password").classList.remove("wrong-animation");
+                        },1000)
+                    }
 
+                }
+            }},"בדיקה")
+        )
+    );
+    document.querySelector(".full-screen").before(popupPassword);
+
+    
     // מעבר בין עמוד הבית לעמוד הלמידה
     let scrollingIcon = El("img", {attributes: {class:"scrolling_icon", src: "../assets/images/opening/scrolling_icon.svg"}});
     document.querySelector(".page.opening .container-scrolling_icon").append(scrollingIcon); 
