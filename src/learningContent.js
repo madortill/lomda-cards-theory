@@ -377,7 +377,7 @@ const DATA = {
             //     trueOrFalse: true
             // }
         ],
-        "amountOfQuestions": 3,
+        "amountOfQuestions": 10,
         lessons: {
             //תמרורים
             "תמרורים": {
@@ -385,14 +385,14 @@ const DATA = {
                     "אזהרה ותמרורים": {
                         "101" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/101.png`,
                                 content: `כביש משובש.`
                             },
                         ],
                         "102" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/102.png`,
                                 content: `עקומה חדה ימינה או
                                 שמאלה, בהתאמה. `
@@ -400,7 +400,7 @@ const DATA = {
                         ],
                         "103" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/103.png`,
                                 content: `עקומה חדה ימינה או
                                 שמאלה, בהתאמה. `
@@ -408,7 +408,7 @@ const DATA = {
                         ],
                         "104" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/104.png`,
                                 content: `עקומה ימינה ואח"כ
                                 שמאלה או שמאלה
@@ -417,7 +417,7 @@ const DATA = {
                         ],
                         "105" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/105.png`,
                                 content: `עקומה ימינה ואח"כ
                                 שמאלה או שמאלה
@@ -426,35 +426,35 @@ const DATA = {
                         ],
                         "106" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/106.png`,
                                 content: `דרך מפותלת `
                             },
                         ],
                         "107" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/107.png`,
                                 content: `אזהרה והדרכה בעקומה חדה: המשך הדרך בכוון המסומן בחצים שעל התמרור, עבור לפני התמרור. `
                             },
                         ],
                         "108" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/108.png`,
                                 content: `אזהרה והדרכה בעקומה חדה: המשך הדרך בכוון המסומן בחצים שעל התמרור, עבור לפני התמרור.`
                             },
                         ],
                         "109" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/109.png`,
                                 content: `הכביש הולך וצר.`
                             },
                         ],
                         "110" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/110.png`,
                                 content: `הכביש הולך וצר מצד
                                 ימין או מצד שמאל,
@@ -463,7 +463,7 @@ const DATA = {
                         ],
                         "111" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/111.png`,
                                 content: `הכביש הולך וצר מצד
                                 ימין או מצד שמאל,
@@ -472,7 +472,7 @@ const DATA = {
                         ],
                         "112" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/112.png`,
                                 content: `מעבר צר או מכשול:
                                 הוצב התמרור בצד אחד
@@ -486,7 +486,7 @@ const DATA = {
                         ],
                         "113" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/113.png`,
                                 content: `מכשול גובה:
                                 מעבר בגובה שמתחת
@@ -495,14 +495,14 @@ const DATA = {
                         ],
                         "114" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/114.png`,
                                 content: `צומת הצטלבות. `
                             },
                         ],
                         "115" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/115.png`,
                                 content: `צומת קמץ:
                                 ימינה או שמאלה ,
@@ -511,7 +511,7 @@ const DATA = {
                         ],
                         "116" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/116.png`,
                                 content: `צומת קמץ:
                                 ימינה או שמאלה ,
@@ -520,14 +520,14 @@ const DATA = {
                         ],
                         "117" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/117.png`,
                                 content: `צומת קמץ `
                             },
                         ],
                         "118" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/118.png`,
                                 content: `אזהרה והדרכה בצומת
                                 קמץ:
@@ -539,7 +539,7 @@ const DATA = {
                         ],
                         "119" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/119.png`,
                                 content: `צמתי קמץ: ימינה ולאחר מכן שמאלה או שמאלה ולאחר מכן ימינה, בהתאמה.
                                 `
@@ -547,7 +547,7 @@ const DATA = {
                         ],
                         "120" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/120.png`,
                                 content: `צמתי קמץ: ימינה ולאחר מכן שמאלה או שמאלה ולאחר מכן ימינה, בהתאמה.
                                 `
@@ -555,21 +555,21 @@ const DATA = {
                         ],
                         "121" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/121.png`,
                                 content: `מעגל תנועה. `
                             },
                         ],
                         "122" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/122.png`,
                                 content: ` רמזור. `
                             },
                         ],
                         "123" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/123.png`,
                                 content: `התמזגות של כביש שבו
                                 זכות קדימה עם דרך
@@ -580,7 +580,7 @@ const DATA = {
                         ],
                         "124" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/124.png`,
                                 content: `התמזגות של כביש שבו
                                 זכות קדימה עם דרך
@@ -591,7 +591,7 @@ const DATA = {
                         ],
                         "125" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/125.png`,
                                 content: `התמזגות עם כביש שבו
                                 זכות קדימה מימין או
@@ -602,7 +602,7 @@ const DATA = {
                         ],
                         "126" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/126.png`,
                                 content: `התמזגות עם כביש שבו
                                 זכות קדימה מימין או
@@ -613,21 +613,21 @@ const DATA = {
                         ],
                         "127" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/127.png`,
                                 content: `גודש בתנועה לפניך. `
                             },
                         ],
                         "127פ" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/127p.png`,
                                 content: `גודש בתנועה לפניך. `
                             },
                         ],
                         "128" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/128.png`,
                                 content: `רכבת מקומית חוצה..
                                 `
@@ -635,14 +635,14 @@ const DATA = {
                         ],
                         "129" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/129.png`,
                                 content: `מפגש מסילת ברזל. `
                             },
                         ],
                         "130" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/130.png`,
                                 content: `מפגש מסילת ברזל במרחק של כ- 300 מטר, אלא אם כן צוין אחרת בתמרור מס' 630 מתחתיו.
                                 `
@@ -650,7 +650,7 @@ const DATA = {
                         ],
                         "131" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/131.png`,
                                 content: `מפגש מסילת ברזל במרחק של כ- 200 מטר, אלא אם כן צוין אחרת בתמרור מס' 630 מתחתיו.
                                 `
@@ -658,7 +658,7 @@ const DATA = {
                         ],
                         "132" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/132.png`,
                                 content: `מפגש מסילת ברזל במרחק של כ- 100 מטר, אלא אם כן צוין אחרת בתמרור מס' 630 מתחתיו
                                 `
@@ -666,7 +666,7 @@ const DATA = {
                         ],
                         "133" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/133.png`,
                                 content: `מקום מפגש מסילת ברזל - מסילה אחת. 
                                 `
@@ -674,7 +674,7 @@ const DATA = {
                         ],
                         "134" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/134.png`,
                                 content: `מקום מפגש מסילת ברזל - יותר ממסילה אחת.
                                 `
@@ -682,7 +682,7 @@ const DATA = {
                         ],
                         "135" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/135.png`,
                                 content: `מעבר חצי יה להולכי רגל בקרבת מקום. 
                                 `
@@ -690,7 +690,7 @@ const DATA = {
                         ],
                         "136" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/136.png`,
                                 content: `הולכי רגל בקרבת מקום.
                                 `
@@ -698,7 +698,7 @@ const DATA = {
                         ],
                         "137" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/137.png`,
                                 content: `תנועת אופניים בקרבת מקום; לענין זה, "אופניים" - כהגדרתם בסעיף 1 להודעה זו;.
                                 `
@@ -706,7 +706,7 @@ const DATA = {
                         ],
                         "138" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/138.png`,
                                 content: ` מנהרה.
                                 `
@@ -714,7 +714,7 @@ const DATA = {
                         ],
                         "139" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/139.png`,
                                 content: `תמרור "עצור" 302 בהמשך הדרך. 
                                 `
@@ -722,7 +722,7 @@ const DATA = {
                         ],
                         "140" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/140.png`,
                                 content: `ירידה תלולה.
                                 `
@@ -730,7 +730,7 @@ const DATA = {
                         ],
                         "141" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/141.png`,
                                 content: `סכנת החלקה.
                                 `
@@ -738,7 +738,7 @@ const DATA = {
                         ],
                         "142" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/142.png`,
                                 content: `אבנים מ ידרדרות מימין
                                 או משמאל, בהתאמה. `
@@ -746,7 +746,7 @@ const DATA = {
                         ],
                         "143" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/143.png`,
                                 content: `אבנים מ ידרדרות מימין
                                 או משמאל, בהתאמה. `
@@ -754,14 +754,14 @@ const DATA = {
                         ],
                         "144" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/144.png`,
                                 content: `פסי האטה. `
                             },
                         ],
                         "145" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/145.png`,
                                 content: `תנועה דו-סטרית
                                 `
@@ -769,14 +769,14 @@ const DATA = {
                         ],
                         "146" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/146.png`,
                                 content: ` בעלי חיים `
                             },
                         ],
                         "147" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/147.png`,
                                 content: `רכב עבודה או טרקטור חוצה.
                                 `
@@ -784,7 +784,7 @@ const DATA = {
                         ],
                         "148" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/148.png`,
                                 content: `עמודי הכונה ואזהרה
                                 בצד הכביש:
@@ -796,7 +796,7 @@ const DATA = {
                         ],
                         "149" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/149.png`,
                                 content: `עמודון להכוונה או להפרדה.
                                 `
@@ -804,7 +804,7 @@ const DATA = {
                         ],
                         "150" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/150.png`,
                                 content: `מקום מסוכן שלגביו לא נקבע תמרור מיוחד. 
                                 `
@@ -812,7 +812,7 @@ const DATA = {
                         ],
                         "150פ" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/150p.png`,
                                 content: `מקום מסוכן שלגביו לא נקבע תמרור מיוחד. 
                                 `
@@ -820,21 +820,21 @@ const DATA = {
                         ],
                         "151" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/151.png`,
                                 content: `תאונה `
                             },
                         ],
                         "151פ" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/151p.png`,
                                 content: `תאונה `
                             },
                         ],
                         "152" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/152.png`,
                                 content: ` רוח צד`
                             },
@@ -843,7 +843,7 @@ const DATA = {
                     "תמרורי הוריה": {
                         "201" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/201.png`,
                                 content: `סע ישר או ימינה.
                                 חץ בצבע צהוב מורה על
@@ -860,7 +860,7 @@ const DATA = {
                         ],
                         "202" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/202.png`,
                                 content: `סע ישר או שמאלה.
                                 חץ בצבע צהוב מורה על
@@ -877,7 +877,7 @@ const DATA = {
                         ],
                         "203" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/203.png`,
                                 content: `סע ישר.
                                 אם החץ מופיע בכיוון
@@ -894,7 +894,7 @@ const DATA = {
                         ],
                         "204" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/204.png`,
                                 content: `סע ימינה.
                                 פנה לפני התמרור.
@@ -915,7 +915,7 @@ const DATA = {
                         ],
                         "205" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/205.png`,
                                 content: `סע שמאלה.
                                 פנה לפני התמרור.
@@ -936,7 +936,7 @@ const DATA = {
                         ],
                         "206" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/206.png`,
                                 content: `סע ימינה.
                                 פנה אחרי התמרור.
@@ -953,7 +953,7 @@ const DATA = {
                         ],
                         "207" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/207.png`,
                                 content: `סע שמאלה.
                                 פנה אחרי התמרור.
@@ -970,7 +970,7 @@ const DATA = {
                         ],
                         "208" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/208.png`,
                                 content: `סע ימינה או שמאלה.
                                 חץ בצבע צהוב מורה על
@@ -987,7 +987,7 @@ const DATA = {
                         ],
                         "209" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/209.png`,
                                 content: `סע ישר או בפנית פרסה
                                 ימינה, פנית פרסה
@@ -1002,7 +1002,7 @@ const DATA = {
                         ],
                         "210" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/210.png`,
                                 content: `סע ישר או בפנית פרסה
                                 שמאלה, פנית פרסה
@@ -1017,7 +1017,7 @@ const DATA = {
                         ],
                         "211" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/211.png`,
                                 content: `סע בפניית פרסה ימינה
                                 או שמאלה, בהתאמה.
@@ -1031,7 +1031,7 @@ const DATA = {
                         ],
                         "212" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/212.png`,
                                 content: `סע בפניית פרסה ימינה
                                 או שמאלה, בהתאמה.
@@ -1045,7 +1045,7 @@ const DATA = {
                         ],
                         "213" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/213.png`,
                                 content: `עבור את המקום
                                 המסומן מימין או
@@ -1057,7 +1057,7 @@ const DATA = {
                         ],
                         "214" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/214.png`,
                                 content: `עבור את המקום
                                 המסומן מצדו הימני או
@@ -1069,7 +1069,7 @@ const DATA = {
                         ],
                         "215" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/215.png`,
                                 content: `עבור את המקום
                                 המסומן מצדו הימני או
@@ -1081,7 +1081,7 @@ const DATA = {
                         ],
                         "216" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/216.png`,
                                 content: `כניסה לדרך מהירה:
                                 אסורה הכניסה להולכי
@@ -1098,14 +1098,14 @@ const DATA = {
                         ],
                         "217" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/217.png`,
                                 content: `קצה הדרך המהירה.`
                             },
                         ],
                         "218" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/218.png`,
                                 content: `דרך לרכב מנועי שמסוגל
                                 ומורשה לנוע במהירות
@@ -1116,42 +1116,42 @@ const DATA = {
                         ],
                         "219" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/219.png`,
                                 content: `דרך לרכב מנועי בלבד.`
                             },
                         ],
                         "220" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/220.png`,
                                 content: `רחוב משולב `
                             },
                         ],
                         "221" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/221.png`,
                                 content: `קצה רחוב משולב. `
                             },
                         ],
                         "222" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/222.png`,
                                 content: `אזור מיתון תנועה.`
                             },
                         ],
                         "223" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/223.png`,
                                 content: ` קצה אזור מיתון תנועה.`
                             },
                         ],
                         "224" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/224.png`,
                                 content: `נתיב חד -סטרי לתנועת
                                 אופניים, כהגדרתם
@@ -1163,7 +1163,7 @@ const DATA = {
                         ],
                         "225" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/225.png`,
                                 content: `קצה הנתיב לאופניים,
                                 כהגדרתם בסעיף 1
@@ -1172,14 +1172,14 @@ const DATA = {
                         ],
                         "226" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/226.png`,
                                 content: `שביל להולכי רגל בלבד. `
                             },
                         ],
                         "227" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/227.png`,
                                 content: `שביל משותף להולכי רגל
                                 ולתנועת אופניים, לעניין
@@ -1190,7 +1190,7 @@ const DATA = {
                         ],
                         "228" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/228.png`,
                                 content: `שביל נפרד להולכי רגל
                                 בלבד, ושביל נפרד
@@ -1202,7 +1202,7 @@ const DATA = {
                         ],
                         "229" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/229.png`,
                                 content: `שביל נפרד להולכי רגל
                                 בלבד, ושביל נפרד
@@ -1214,7 +1214,7 @@ const DATA = {
                         ],
                         "230" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/230.png`,
                                 content: `כביש או נתיב אגרה:
                                 הנסיעה בכביש או בנתיב
@@ -1237,7 +1237,7 @@ const DATA = {
                         ],
                         "231" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/231.png`,
                                 content: `קצה כביש או נתיב אגרה. `
                             },
@@ -1246,7 +1246,7 @@ const DATA = {
                     "תמרורי זכות קדימה": {
                         "301" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/301.png`,
                                 content: `תן זכות קדימה לתנועה
                                 בדרך החוצה לרבות
@@ -1255,7 +1255,7 @@ const DATA = {
                         ],
                         "302" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/302.png`,
                                 content: `עצור!
                                 תן זכות קדימה לתנועה
@@ -1265,7 +1265,7 @@ const DATA = {
                         ],
                         "303" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/303.png`,
                                 content: `מעגל תנועה:
                                 תן זכות קדימה לתנועה
@@ -1277,7 +1277,7 @@ const DATA = {
                         ],
                         "304" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/304.png`,
                                 content: `עצור!
                                 )תמרור נייד(. `
@@ -1285,7 +1285,7 @@ const DATA = {
                         ],
                         "305" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/305.png`,
                                 content: `התקדם בזהירות
                                 )תמרור נייד(.  `
@@ -1293,7 +1293,7 @@ const DATA = {
                         ],
                         "306" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/306.png`,
                                 content: `תן זכות קדימה להולכי
                                 הרגל החוצים. `
@@ -1301,7 +1301,7 @@ const DATA = {
                         ],
                         "307" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/307.png`,
                                 content: `תן זכות קדימה ב קטע
                                 דרך צרה לתנועה
@@ -1310,7 +1310,7 @@ const DATA = {
                         ],
                         "308" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/308.png`,
                                 content: `לך זכות קדימה בקטע
                                 דרך צרה לגבי התנועה
@@ -1319,14 +1319,14 @@ const DATA = {
                         ],
                         "309" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/309.png`,
                                 content: ` לך זכות קדימה בדרך. `
                             },
                         ],
                         "310" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/310.png`,
                                 content: `קצה הדרך שבה יש לך
                                 זכות קדימה.  `
@@ -1336,7 +1336,7 @@ const DATA = {
                     "תמרורי איסורים והגבלות": {
                         "401" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/401.png`,
                                 content: `כביש סגור - בשני
                                 הכוונים - בפני כל רכב.
@@ -1347,7 +1347,7 @@ const DATA = {
                         ],
                         "401פ" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/401p.png`,
                                 content: `כביש סגור - בשני
                                 הכוונים - בפני כל רכב.
@@ -1358,7 +1358,7 @@ const DATA = {
                         ],
                         "402" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/402.png`,
                                 content: `אסורה הכניסה לכל
                                 רכב.`
@@ -1366,7 +1366,7 @@ const DATA = {
                         ],
                         "403" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/403.png`,
                                 content: `מחסום:
                                 הדרך חסומה.
@@ -1377,7 +1377,7 @@ const DATA = {
                         ],
                         "404" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/404.png`,
                                 content: `מחסום לפני מפגש
                                 מסילת ברזל:
@@ -1391,7 +1391,7 @@ const DATA = {
                         ],
                         "405" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/405.png`,
                                 content: `אסורה הכניסה לכל רכב
                                 מנועי. `
@@ -1399,7 +1399,7 @@ const DATA = {
                         ],
                         "406" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/406.png`,
                                 content: `אסורה הכניסה לרכב
                                 מנועי מסחרי שמשקלו
@@ -1410,7 +1410,7 @@ const DATA = {
                         ],
                         "407" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/407.png`,
                                 content: `אסורה הכניסה לרכב
                                 המוביל חומר מסוכן
@@ -1420,7 +1420,7 @@ const DATA = {
                         ],
                         "408" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/408.png`,
                                 content: `אסורה הכניסה לרכב
                                 מנועי, למעט רכב דו-
@@ -1429,14 +1429,14 @@ const DATA = {
                         ],
                         "409" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/409.png`,
                                 content: `אסורה הכניסה לאופנוע. `
                             },
                         ],
                         "410" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/410.png`,
                                 content: `אסורה הכניסה לרכב
                                 עבודה ולטרקטור.  `
@@ -1444,7 +1444,7 @@ const DATA = {
                         ],
                         "411" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/411.png`,
                                 content: `אסורה הכניסה לבעלי
                                 חיים.   `
@@ -1452,7 +1452,7 @@ const DATA = {
                         ],
                         "412" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/310.png`,
                                 content: `אסורה הכניסה
                                 לאופניים, כהגדרתם
@@ -1461,7 +1461,7 @@ const DATA = {
                         ],
                         "413" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/413.png`,
                                 content: `אסורה הכניסה להולכי רגל.
                                 `
@@ -1469,7 +1469,7 @@ const DATA = {
                         ],
                         "414" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/414.png`,
                                 content: `אסורה הכניסה להולכי
                                 רגל, לרכב עבודה,
@@ -1485,7 +1485,7 @@ const DATA = {
                         ],
                         "415" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/415.png`,
                                 content: `אסורה הכניסה לכל
                                 רכב, שמשקלו הכולל
@@ -1495,7 +1495,7 @@ const DATA = {
                         ],
                         "416" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/416.png`,
                                 content: `אסורה הכניסה לרכב
                                 שגבהו –כולל המטען -
@@ -1505,7 +1505,7 @@ const DATA = {
                         ],
                         "417" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/417.png`,
                                 content: `אסורה הכניסה לרכב
                                 שרחבו –כולל המטען-
@@ -1515,7 +1515,7 @@ const DATA = {
                         ],
                         "418" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/418.png`,
                                 content: `אזור אסור ללימוד נהיגה. 
                                 `
@@ -1523,7 +1523,7 @@ const DATA = {
                         ],
                         "419" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/419.png`,
                                 content: `קצה האזור האסור
                             ללימוד נהיגה. `
@@ -1531,7 +1531,7 @@ const DATA = {
                         ],
                         "420" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/420.png`,
                                 content: `אסור לעקוף או לעבור
                                 על פניו של רכב מנועי
@@ -1542,7 +1542,7 @@ const DATA = {
                         ],
                         "421" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/421.png`,
                                 content: `קצה קטע הדרך שעליו
                                  חל איסור העקיפה. `
@@ -1550,7 +1550,7 @@ const DATA = {
                         ],
                         "422" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/422.png`,
                                 content: `אסור לרכב שמשקלו
                                 הכולל המותר עולה על 4
@@ -1562,7 +1562,7 @@ const DATA = {
                         ],
                         "423" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/423.png`,
                                 content: `קצה קטע הדרך שעליו
                                  חל איסור העקיפה. `
@@ -1570,14 +1570,14 @@ const DATA = {
                         ],
                         "424" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/424.png`,
                                 content: `אזור דרכים עירוניות. `
                             },
                         ],
                         "425" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/425.png`,
                                 content: `קצה אזור דרכים
                                 עירוניות. `
@@ -1585,7 +1585,7 @@ const DATA = {
                         ],
                         "426" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/426.png`,
                                 content: `מהירות מיוחדת:
                                 אסורה הנסיעה
@@ -1596,7 +1596,7 @@ const DATA = {
                         ],
                         "426פ" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/426p.png`,
                                 content: `מהירות מיוחדת:
                                 אסורה הנסיעה
@@ -1607,7 +1607,7 @@ const DATA = {
                         ],
                         "427" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/427.png`,
                                 content: `קצה הקטע של מהירות
                                 מיוחדת.`
@@ -1615,7 +1615,7 @@ const DATA = {
                         ],
                         "428" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/428.png`,
                                 content: `אסורה הפניה ימינה או
                                 שמאלה, בהתאמה,
@@ -1627,7 +1627,7 @@ const DATA = {
                         ],
                         "429" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/429.png`,
                                 content: `אסורה הפניה ימינה או
                                 שמאלה, בהתאמה,
@@ -1639,7 +1639,7 @@ const DATA = {
                         ],
                         "430" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/430.png`,
                                 content: `אסורה פנית פרסה
                                 לימין או לשמאל,
@@ -1649,7 +1649,7 @@ const DATA = {
                         ],
                         "431" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/431.png`,
                                 content: `אסורה פנית פרסה
                                 לימין או לשמאל,
@@ -1659,7 +1659,7 @@ const DATA = {
                         ],
                         "432" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/432.png`,
                                 content: `אסורה חניית רכב
                                 בדרך בצד שבו הוצב
@@ -1668,7 +1668,7 @@ const DATA = {
                         ],
                         "433" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/433.png`,
                                 content: `אסורה כל עצירה
                                 וחניה של רכב בדרך
@@ -1680,7 +1680,7 @@ const DATA = {
                         ],
                         "434" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/434.png`,
                                 content: `קצה קטע הוראות 433 ,432 התמרורים בלבד.
                                 `
@@ -1688,7 +1688,7 @@ const DATA = {
                         ],
                         "435" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/435.png`,
                                 content: `אזור אסור לחנית רכב
                                 שמשקלו הכולל המותר
@@ -1698,7 +1698,7 @@ const DATA = {
                         ],
                         "436" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/436.png`,
                                 content: `קצה האזור האסור
                                 לחניית רכב מסחרי
@@ -1708,7 +1708,7 @@ const DATA = {
                         ],
                         "437" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/437.png`,
                                 content: `חנייה בלעדית לרכב של נכה הנושא תג נכה מקורי תקף, בעת שהרכב משמש את הנכה שלו ניתן התג.
                                 `
@@ -1716,7 +1716,7 @@ const DATA = {
                         ],
                         "438" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/438.png`,
                                 content: `עצור! בקורת מכס. 
                                 `
@@ -1724,7 +1724,7 @@ const DATA = {
                         ],
                         "439" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/439.png`,
                                 content: `תמרור למסר מחייב
                                 שלגביו אין תמרור בלוח
@@ -1738,7 +1738,7 @@ const DATA = {
                         ],
                         "440" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/440.png`,
                                 content: `אזור שבו אסורה
                                 הכניסה לרכב מזהם, לפי
@@ -1752,7 +1752,7 @@ const DATA = {
                         ],
                         "441" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/441.png`,
                                 content: `קצה האזור שבו אסורה
                                  הכניסה לרכב מזהם `
@@ -1762,7 +1762,7 @@ const DATA = {
                     "תמרורי תחבורה ציבורית": {
                         "501" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/501.png`,
                                 content: `כביש או נתיב או שול
                                 לתחבורה ציבורית:
@@ -1802,7 +1802,7 @@ const DATA = {
                         ],
                         "502" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/502.png`,
                                 content: `קצה הכביש או הנתיב
                                 או השול לתחבורה
@@ -1811,7 +1811,7 @@ const DATA = {
                         ],
                         "503" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/503.png`,
                                 content: `נתיב לתחבורה ציבורית:
                                 קו קטעים כפול משולב
@@ -1832,7 +1832,7 @@ const DATA = {
                         ],
                         "504" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/504.png`,
                                 content: `התנועה בכוון המסומן
                                 בחץ הלבן מותרת לכל
@@ -1844,7 +1844,7 @@ const DATA = {
                         ],
                         "505" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/505.png`,
                                 content: `תחנת אוטובוסים
                                 ציבוריים:
@@ -1865,7 +1865,7 @@ const DATA = {
                         ],
                         "506" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/506.png`,
                                 content: `תחנת רכבת מקומית:
                                 על גב התמרור יירשם
@@ -1875,7 +1875,7 @@ const DATA = {
                         ],
                         "507" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/507.png`,
                                 content: `תחנת מוניות:
                                 אסורה עצירה וחניית כל
@@ -1892,7 +1892,7 @@ const DATA = {
                         ],
                         "508" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/508.png`,
                                 content: `קצה תחום תחנת
                                 מוניות. `
@@ -1900,7 +1900,7 @@ const DATA = {
                         ],
                         "509" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/509.png`,
                                 content: `מקום עצירה למונית
                                 להעלאת והורדת נוסעים
@@ -1917,7 +1917,7 @@ const DATA = {
                         ],
                         "510" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/510.png`,
                                 content: `תחנת הסעה לחיילים
                                 להעלאה ולהורדה בלבד`
@@ -1925,7 +1925,7 @@ const DATA = {
                         ],
                         "511" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/511.png`,
                                 content: `מקום עצירה לסוג
                                 מסויים של רכב ליד
@@ -1940,7 +1940,7 @@ const DATA = {
                         ],
                         "512" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/512.png`,
                                 content: `מקום עצירה לסוג
                                 מסויים של רכב במקום
@@ -1956,7 +1956,7 @@ const DATA = {
                         ],
                         "513" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/513.png`,
                                 content: `מקום עצירה לסוג
                                 מסויים של רכב במקום
@@ -1972,7 +1972,7 @@ const DATA = {
                         ],
                         "514" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/514.png`,
                                 content: `כיווני הנסיעה המותרים
                                 בנתיב – חצים על פני
@@ -2007,7 +2007,7 @@ const DATA = {
                         ],
                         "515" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/515.png`,
                                 content: `קו רציף כפול משולב עם
                                 מעוינים בצבע צהוב –
@@ -2028,7 +2028,7 @@ const DATA = {
                         ],
                         "516" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/516.png`,
                                 content: `נתיב לתחבורה ציבורית,
                                 חציה אל ומהנתיב:
@@ -2053,12 +2053,12 @@ const DATA = {
                                 אלא אם צוין אחרת.`
                             },
                         ],
-
+                
                     },
                     "תמרורי מודיעין והדרכה": {
                         "601" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/601.png`,
                                 content: `שם המחלף או הצומת:
                                 בדרך מהירה – באותיות
@@ -2072,7 +2072,7 @@ const DATA = {
                         ],
                         "602" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/602.png`,
                                 content: `הכוונה ליעדים או ליעדי
                                 ביניים מעל הנתיבים
@@ -2087,7 +2087,7 @@ const DATA = {
                         ],
                         "603" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/603.png`,
                                 content: `הכוונה ליעדים או ליעדי
                                 ביניים מעל הנתיבים
@@ -2100,7 +2100,7 @@ const DATA = {
                         ],
                         "604" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/604.png`,
                                 content: `הכוונה מוקדמת ליעדים
                                 או ליעדי ביניים לפני
@@ -2113,7 +2113,7 @@ const DATA = {
                         ],
                         "605" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/605.png`,
                                 content: `שתי יציאות עוקבות
                                 וסמוכות:
@@ -2126,7 +2126,7 @@ const DATA = {
                         ],
                         "606" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/606.png`,
                                 content: `הכוונה ליציאה מהדרך: במחלף שלפניך.
                                 בהכוונה לדרך מהירה –
@@ -2138,7 +2138,7 @@ const DATA = {
                         ],
                         "607" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/607.png`,
                                 content: `הכוונה ליציאה בלבד: מעל לנתיב בהכוונה לדרך מהירה – באותיות לבנות על רקע כחול, בהכוונה לדרכים אחרות – באותיות לבנות על רקע ירוק.
                                 `
@@ -2146,14 +2146,14 @@ const DATA = {
                         ],
                         "608" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/608.png`,
                                 content: `מקום היציאה מהדרך.`
                             },
                         ],
                         "609" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/609.png`,
                                 content: `היציאות הבאות: בדרך מהירה - באותיות לבנות על רקע כחול. בדרכים אחרות – באותיות לבנות על רקע ירוק. המספר מציין את המרחק בקילומטרים עד היציאה
                                 `
@@ -2161,7 +2161,7 @@ const DATA = {
                         ],
                         "610" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/610.png`,
                                 content: `יעדים או יעדי ביניים בדרכים שאינן עירו ניות: בדרך מהירה – באותיות לבנות על רקע כחול, בדרכים אחרות - באותיות לבנות על רקע ירוק. המספר מציין את המרחק בקילומטרים עד מרכז היעד. 
                                 `
@@ -2169,7 +2169,7 @@ const DATA = {
                         ],
                         "611" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/611.png`,
                                 content: `מספרה של דרך: בדרך מהירה – בצבע כחול, בדרך ראשית – בצבע אדום, בדרך איזורית – בצבע ירוק, ובדרך מקומ ית – בצבע שחור. הוצב תמרור 629 מתחתיו – מציין את כוון הנסיעה הכללי
                                 `
@@ -2177,7 +2177,7 @@ const DATA = {
                         ],
                         "612" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/612.png`,
                                 content: `מספר הקילומטר בדרך: בדרך מהירה – בצבע כחול, בדרך ראשית – בצבע אדום, בדרך איזורית – בצבע ירוק ובדרך מקומית – בצבע שחור. החץ מראה את סדר המיספור )עולה או יורד( של הקילומטרים בכוון הנסיעה.
                                     `
@@ -2185,7 +2185,7 @@ const DATA = {
                         ],
                         "613" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/613.png`,
                                 content: `הגדרת תנועות בנתיבים:
                                 בדרך מהירה – בחצים
@@ -2200,7 +2200,7 @@ const DATA = {
                         ],
                         "614" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/614.png`,
                                 content: `הכוונה ליעדים או ליעדי
                                 ביניים בדרכים
@@ -2216,7 +2216,7 @@ const DATA = {
                         ],
                         "615" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/615.png`,
                                 content: `הכוונה מעל הנתיבים
                                 לפני מחלף בדרך
@@ -2233,7 +2233,7 @@ const DATA = {
                         ],
                         "616" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/616.png`,
                                 content: `הכוונה מעל הנתיבים
                                 לפני צומת בדרך
@@ -2250,7 +2250,7 @@ const DATA = {
                         ],
                         "617" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/617.png`,
                                 content: `מורה דרך בצומת או במחלף: בהכוונה לדרך מהירה – באותיות בצבע לבן על רקע כחול. בהכוונה לדרכים אחרות- באותיות שחורות על רקע לבן. בהכוונה לאתר תיירותי – באותיות לבנות על רקע חום.
                                 `
@@ -2258,7 +2258,7 @@ const DATA = {
                         ],
                         "618" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/618.png`,
                                 content: `כביש חד סטרי:
                                 כניסה לקטע כביש שבו
@@ -2268,7 +2268,7 @@ const DATA = {
                         ],
                         "619" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/619.png`,
                                 content: `שינוי במספר הנתיבים:
                                 מספר הנתיבים בכביש
@@ -2278,7 +2278,7 @@ const DATA = {
                         ],
                         "620" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/620.png`,
                                 content: `שינוי במספר הנתיבים:
                                 מספר הנתיבים בכביש
@@ -2288,7 +2288,7 @@ const DATA = {
                         ],
                         "621" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/621.png`,
                                 content: `שינוי במספר הנתיבים:
                                 מספר הנתיבים בכביש
@@ -2298,7 +2298,7 @@ const DATA = {
                         ],
                         "622" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/622.png`,
                                 content: `שינוי במספר הנתיבים:
                                 מספר הנתיבים בכביש
@@ -2308,14 +2308,14 @@ const DATA = {
                         ],
                         "623" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/623.png`,
                                 content: `כביש ללא מוצא. `
                             },
                         ],
                         "624" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/624.png`,
                                 content: `כביש ללא מוצא מימין
                                 או משמאל, בהתאמה.  `
@@ -2323,7 +2323,7 @@ const DATA = {
                         ],
                         "625" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/625.png`,
                                 content: `כביש ללא מוצא מימין
                                 או משמאל, בהתאמה. `
@@ -2331,7 +2331,7 @@ const DATA = {
                         ],
                         "626" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/626.png`,
                                 content: `חניה לכלי רכב, זולת –
                                 )1 )בתחנת אוטובוסים
@@ -2352,7 +2352,7 @@ const DATA = {
                         ],
                         "627" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/627.png`,
                                 content: `מותרת ה חניה על
                                 המדרכה לרכב שמשקלו
@@ -2377,7 +2377,7 @@ const DATA = {
                         ],
                         "628" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/628.png`,
                                 content: `קצה המקום או הקטע
                                 המותר לחניה על
@@ -2388,7 +2388,7 @@ const DATA = {
                         ],
                         "629" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/629.png`,
                                 content: `תמרור לאזהרה או
                                 להודעה רק למסר
@@ -2403,7 +2403,7 @@ const DATA = {
                         ],
                         "629פ" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/629p.png`,
                                 content: `תמרור לאזהרה או
                                 להודעה רק למסר
@@ -2418,7 +2418,7 @@ const DATA = {
                         ],
                         "630" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/630.png`,
                                 content: `במרחק הנקוב במטרים, יחול האמור בתמרור שמעליו או בתוכו הוצב. 
                                 `
@@ -2426,7 +2426,7 @@ const DATA = {
                         ],
                         "631" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/631.png`,
                                 content: `לאורך הקטע שלפניך במטרים, יחול האמור בתמרור שמעליו. 
                                 `
@@ -2434,7 +2434,7 @@ const DATA = {
                         ],
                         "632" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/632.png`,
                                 content: `המסר בתמרור שמעליו מיועד לפונה בכוון החץ
                                 `
@@ -2442,28 +2442,28 @@ const DATA = {
                         ],
                         "633" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/633.png`,
                                 content: `מנהרה`
                             },
                         ],
                         "634" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/634.png`,
                                 content: `קצה המנהרה`
                             },
                         ],
                         "635" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/635.png`,
                                 content: ` סכנת שריפות. `
                             },
                         ],
                         "636" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/636.png`,
                                 content: `כביש חד סטרי לרכב
                                 מנועי:
@@ -2475,7 +2475,7 @@ const DATA = {
                         ],
                         "637" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/637.png`,
                                 content: `מפרץ לעצירה במצב חירום. `
                             },
@@ -2484,7 +2484,7 @@ const DATA = {
                     "רמזורים ובקרת נתיבים": {
                         "701" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/701.png`,
                                 content: `אור אדום:
                                 עצור!
@@ -2509,7 +2509,7 @@ const DATA = {
                         ],
                         "702" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/702.png`,
                                 content: `אור אדום ואור צהוב
                                 יחד:
@@ -2527,7 +2527,7 @@ const DATA = {
                         ],
                         "703" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/703.png`,
                                 content: `אור ירוק:
                                 התקדם.
@@ -2547,7 +2547,7 @@ const DATA = {
                         ],
                         "704" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/704.png`,
                                 content: `חץ ירוק לכלי רכב:
                                 התקדם.
@@ -2568,7 +2568,7 @@ const DATA = {
                         ],
                         "705" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/705.png`,
                                 content: `אור צהוב:
                                 עצור כאמור ב-701.
@@ -2581,7 +2581,7 @@ const DATA = {
                         ],
                         "706" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/706.png`,
                                 content: `אור צהוב מהבהב:
                                 התקדם בזהירות תוך
@@ -2602,7 +2602,7 @@ const DATA = {
                         ],
                         "707" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/707.png`,
                                 content: `אור צהוב מהבהב:
                                 התקדם בזהירות תוך
@@ -2623,7 +2623,7 @@ const DATA = {
                         ],
                         "708" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/708.png`,
                                 content: `אור לבן מלבני אופקי:
                                 עצור!
@@ -2643,7 +2643,7 @@ const DATA = {
                         ],
                         "709" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/709.png`,
                                 content: `אור לבן מלבני אופקי
                                 ואור לבן עגול יחד:
@@ -2663,7 +2663,7 @@ const DATA = {
                         ],
                         "710" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/710.png`,
                                 content: `אור לבן מלבני אנכי:
                                 התקדם.
@@ -2675,7 +2675,7 @@ const DATA = {
                         ],
                         "711" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/711.png`,
                                 content: `אור לבן מלבני מוטה:
                                 התקדם.
@@ -2694,7 +2694,7 @@ const DATA = {
                         ],
                         "712" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/712.png`,
                                 content: `אור לבן מלבני מוטה:
                                 התקדם.
@@ -2713,7 +2713,7 @@ const DATA = {
                         ],
                         "712" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/712.png`,
                                 content: `אור לבן מלבני מוטה:
                                 התקדם.
@@ -2732,7 +2732,7 @@ const DATA = {
                         ],
                         "713" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/713.png`,
                                 content: `אור לבן מלבני אנכי
                                 ואור לבן מלבני מוטה:
@@ -2752,7 +2752,7 @@ const DATA = {
                         ],
                         "714" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/714.png`,
                                 content: `אור לבן מלבני אנכי
                                 ואור לבן מלבני מוטה:
@@ -2772,7 +2772,7 @@ const DATA = {
                         ],
                         "715" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/715.png`,
                                 content: `אור לבן מלבני אנכי
                                 ואורות לבנים מלבניים
@@ -2789,7 +2789,7 @@ const DATA = {
                         ],
                         "716" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/716.png`,
                                 content: `אור לבן עגול:
                                 עצור כאמור
@@ -2805,7 +2805,7 @@ const DATA = {
                         ],
                         "717" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/717.png`,
                                 content: `אור לבן מהבהב:
                                 התקדם בזהירות תוך
@@ -2814,7 +2814,7 @@ const DATA = {
                         ],
                         "718" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/718.png`,
                                 content: `דמות הולך רגל עומד
                                 בצבע אדום:
@@ -2825,7 +2825,7 @@ const DATA = {
                         ],
                         "719" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/719.png`,
                                 content: `דמות הולך רגל בצבע
                                 ירוק: מותר לחצות את
@@ -2834,7 +2834,7 @@ const DATA = {
                         ],
                         "720" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/721.png`,
                                 content: `צורת אופניים בצבע
                                 אדום:
@@ -2845,7 +2845,7 @@ const DATA = {
                         ],
                         "721" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/721.png`,
                                 content: `צורת אופ ניים בצבע
                                 ירוק:
@@ -2855,7 +2855,7 @@ const DATA = {
                         ],
                         "722" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/722.png`,
                                 content: `אור אדום מהבהב כפול
                                 לפני מפגש מסילת ברזל:
@@ -2878,7 +2878,7 @@ const DATA = {
                         ],
                         "723" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/723.png`,
                                 content: `נתיב סגור:
                                 אסור לנסוע בנתיב
@@ -2891,7 +2891,7 @@ const DATA = {
                         ],
                         "723פ" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/723p.png`,
                                 content: `נתיב סגור:
                                 אסור לנסוע בנתיב
@@ -2904,7 +2904,7 @@ const DATA = {
                         ],
                         "724" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/724.png`,
                                 content: `נתיב פתוח:
                                 מותר לנסוע בנתיב
@@ -2913,7 +2913,7 @@ const DATA = {
                         ],
                         "724פ" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/724p.png`,
                                 content: `נתיב פתוח:
                                 מותר לנסוע בנתיב
@@ -2922,7 +2922,7 @@ const DATA = {
                         ],
                         "725" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/725.png`,
                                 content: `מעבר לנתיב סמוך:
                                 השתלב בתנועה שבנתיב
@@ -2935,7 +2935,7 @@ const DATA = {
                         ],
                         "725פ" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/725p.png`,
                                 content: `מעבר לנתיב סמוך:
                                 השתלב בתנועה שבנתיב
@@ -2948,7 +2948,7 @@ const DATA = {
                         ],
                         "726" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/726.png`,
                                 content: `נתיב יציאה:
                                 ליציאה מן הכביש סע
@@ -2958,7 +2958,7 @@ const DATA = {
                         ],
                         "726פ" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/726p.png`,
                                 content: `נתיב יציאה:
                                 ליציאה מן הכביש סע
@@ -2968,7 +2968,7 @@ const DATA = {
                         ],
                         "727" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/727.png`,
                                 content: `אור אדום; עצור !
                                 הוצב תמרור הוריה
@@ -2992,7 +2992,7 @@ const DATA = {
                         ],
                         "728" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/728.png`,
                                 content: `אור ירוק – התקדם;
                                 מותר לנסוע ישר, ימינה,
@@ -3004,7 +3004,7 @@ const DATA = {
                         ],
                         "729" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/729.png`,
                                 content: `אור צהוב; עצור כאמור
                                 בתמרור 727 ;
@@ -3016,12 +3016,12 @@ const DATA = {
                             },
                         ],
                         
-
+                
                     },
                     "סימון על פני הדרך": {
                         "801" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/801.png`,
                                 content: `קו נתיב או קו ציר הכביש - קו קטעים בצבע
                                 לבן:
@@ -3033,7 +3033,7 @@ const DATA = {
                         ],
                         "802" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/802.png`,
                                 content: `כביש או נתיב מתחלף - קו קטעים כפול בצבע
                                 לבן:
@@ -3044,7 +3044,7 @@ const DATA = {
                         ],
                         "803" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/803.png`,
                                 content: `קו הפרדה רצוף כפול בצבע לבן:
                                 נהג בצידם הימני של הקוים, אל תעבור את
@@ -3053,7 +3053,7 @@ const DATA = {
                         ],
                         "804" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/804.png`,
                                 content: `שביל או נתיב המיועד לאופניים, כהגדרתם
                                 בסעיף 1 להודעה זו; סע בכוון החץ בלבד`
@@ -3061,7 +3061,7 @@ const DATA = {
                         ],
                         "805" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/805.png`,
                                 content: `קו קטעים צפוף בצבע לבן - אזהרה לפני הופעת
                                 קו הפרדה רצוף כפול:
@@ -3071,7 +3071,7 @@ const DATA = {
                         ],
                         "806" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/806.png`,
                                 content: `קו קטעים ליד קו רצוף בצבע לבן:
                                 מותר לעבור את הקוים, אם קו הקטעים הוא
@@ -3080,7 +3080,7 @@ const DATA = {
                         ],
                         "807" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/807.png`,
                                 content: `קו רצוף בצבע צהוב:
                                 קו שפת הכביש, במקום שאין בו אבני שפה,
@@ -3092,7 +3092,7 @@ const DATA = {
                         ],
                         "808" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/808.png`,
                                 content: `קו מלבנים בצבע לבן:
                                 נתיב לפניה בלעדית ימינה או שמאלה, או נתיב
@@ -3102,7 +3102,7 @@ const DATA = {
                         ],
                         "809" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/809.png`,
                                 content: `קו קטעים בצבע לבן – פניה בצומת:
                                 לפניה, סע במקביל לקו הקטעים.
@@ -3112,7 +3112,7 @@ const DATA = {
                         ],
                         "810" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/810.png`,
                                 content: `קו עצירה – קו לבן לרוחב הנתיב:
                                 מקום עצירת הרכב או בעל החיים, לפני הקו
@@ -3121,7 +3121,7 @@ const DATA = {
                         ],
                         "811" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/811.png`,
                                 content: `מעבר חציה להולכי רגל:
                                 חולק מעבר חציה רחב לשניים, חצה בחצי
@@ -3130,7 +3130,7 @@ const DATA = {
                         ],
                         "812" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/812.png`,
                                 content: `מעבר חציה לאופניים, כהגדרתם בסעיף 1
                                להודעה זו; `
@@ -3138,7 +3138,7 @@ const DATA = {
                         ],
                         "813" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/813.png`,
                                 content: `כווני הנסיעה המותרים בנתיב - חצים על פני
                                 הדרך בצבע לבן:
@@ -3148,7 +3148,7 @@ const DATA = {
                         ],
                         "814" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/814.png`,
                                 content: `נתיב נסיעה העומד להסתיים - חצים
                                 אלכסוניים בצבע לבן:
@@ -3157,7 +3157,7 @@ const DATA = {
                         ],
                         "815" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/815.png`,
                                 content: `איי תנועה )בצורות שונות(, מסומנים על
                                     הכביש בצבע לבן:
@@ -3166,7 +3166,7 @@ const DATA = {
                         ],
                         "816" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/816.png`,
                                 content: `אבני שפה צבועות שחור-לבן:
                                 להבלטה והדגשה של מדרכות, מפרדות ואיי
@@ -3175,7 +3175,7 @@ const DATA = {
                         ],
                         "817" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/817.png`,
                                 content: `אבני שפה צבועות לסירוגין בצבע כחול:
                                 החנייה מותרת בתשלום על הכביש שליד אבני
@@ -3185,7 +3185,7 @@ const DATA = {
                         ],
                         "818" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/818.png`,
                                 content: `אבני שפה צבועות אדום -לבן:
                                 אסורה כל עצירה או חניה של רכב בכביש שליד
@@ -3195,7 +3195,7 @@ const DATA = {
                         ],
                         "819" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/819.png`,
                                 content: `מקומות חניה לכלי רכב מסומנים בצבע לבן:
                                 החניה במקום תהיה רק בתחומי השטח
@@ -3209,7 +3209,7 @@ const DATA = {
                         ],
                         "820" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/820.png`,
                                 content: `מקום אסור לחניה מסומן בצבע לבן:
                                 אסורה חניה בתוך השטח המסומן. `
@@ -3217,7 +3217,7 @@ const DATA = {
                         ],
                         "821" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/821.png`,
                                 content: ` מקום פס האטה.  `
                             },
@@ -3226,7 +3226,7 @@ const DATA = {
                     "תמרורים באתר עבודה": {
                         "901" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/901.png`,
                                 content: `אתר עבודה בדרך.
                                 סע על פי הסימון בצבע
@@ -3235,7 +3235,7 @@ const DATA = {
                         ],
                         "901פ" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/901p.png`,
                                 content: ` אתר עבודה בדרך.
                                 סע על פי הסימון בצבע
@@ -3244,7 +3244,7 @@ const DATA = {
                         ],
                         "902" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/902.png`,
                                 content: ` קצה אתר עבודה וכל
                                 ההגבלות והאיסורים
@@ -3253,7 +3253,7 @@ const DATA = {
                         ],
                         "903" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/903.png`,
                                 content: `אזהרה והדרכה בעקומה
                                 חדה:
@@ -3265,7 +3265,7 @@ const DATA = {
                         ],
                         "904" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/90.png`,
                                 content: ` אזהרה והדרכה בצומת
                                 קמץ:
@@ -3277,14 +3277,14 @@ const DATA = {
                         ],
                         "905" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/905.png`,
                                 content: ` הכביש הולך וצר. `
                             },
                         ],
                         "906" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/906.png`,
                                 content: ` הכביש הולך וצר מצד
                                 ימין או מצד שמאל,
@@ -3293,7 +3293,7 @@ const DATA = {
                         ],
                         "907" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/907.png`,
                                 content: ` הכביש הולך וצר מצד
                                 ימין או מצד שמאל,
@@ -3302,7 +3302,7 @@ const DATA = {
                         ],
                         "908" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/908.png`,
                                 content: `מעבר צר או מכשול:
                                 הוצב התמרור בצד אחד
@@ -3316,7 +3316,7 @@ const DATA = {
                         ],
                         "909" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/909.png`,
                                 content: `תנועה
                                 דו-סטרית.`
@@ -3324,7 +3324,7 @@ const DATA = {
                         ],
                         "910" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/910.png`,
                                 content: ` שינוי במספר הנתיבים:
                                 מספר הנתיבים בכביש
@@ -3334,7 +3334,7 @@ const DATA = {
                         ],
                         "911" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/911.png`,
                                 content: `שינוי במספר הנתיבים:
                                 מספר הנתיבים בכביש
@@ -3344,7 +3344,7 @@ const DATA = {
                         ],
                         "912" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/912.png`,
                                 content: `שינוי במספר הנתיבים:
                                 מספר הנתיבים בכביש
@@ -3354,7 +3354,7 @@ const DATA = {
                         ],
                         "913" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/913.png`,
                                 content: `שינוי במספר הנתיבים:
                                 מספר הנתיבים בכביש
@@ -3364,14 +3364,14 @@ const DATA = {
                         ],
                         "914" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/914.png`,
                                 content: `  מעקף. `
                             },
                         ],
                         "915" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/915.png`,
                                 content: `תמרור לאזהרה,
                                 להוריה,לאיסור או
@@ -3387,7 +3387,7 @@ const DATA = {
                         ],
                         "916" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/916.png`,
                                 content: `במרחק הנקוב במטרים,
                                 יחול האמור בתמרור
@@ -3396,7 +3396,7 @@ const DATA = {
                         ],
                         "917" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/917.png`,
                                 content: `לאורך הקטע שלפניך
                                 במטרים, יחול האמור
@@ -3405,7 +3405,7 @@ const DATA = {
                         ],
                         "918" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/918.png`,
                                 content: `קו נתיב או קו ציר
                                 הכביש – קו קטעים
@@ -3421,7 +3421,7 @@ const DATA = {
                         ],
                         "919" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/919.png`,
                                 content: `כביש או נתיב מתחלף -
                                 קו קטעים כפול בצבע
@@ -3435,7 +3435,7 @@ const DATA = {
                         ],
                         "920" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/920.png`,
                                 content: `קו הפרדה רצוף כפול
                                 בצבע כתום:
@@ -3447,7 +3447,7 @@ const DATA = {
                         ],
                         "921" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/921.png`,
                                 content: ` קו קטעים צפוף בצבע
                                 כתום -
@@ -3460,7 +3460,7 @@ const DATA = {
                         ],
                         "922" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/922.png`,
                                 content: `קו קטעים ליד קו רצוף
                                 בצבע כתום:
@@ -3473,7 +3473,7 @@ const DATA = {
                         ],
                         "923" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/923.png`,
                                 content: `קו מלבנים בצבע כתום:
                                 נתיב לפניה בלעדית
@@ -3487,7 +3487,7 @@ const DATA = {
                         ],
                         "924" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/924.png`,
                                 content: `קו קטעים בצבע כתום –
                                 פניה בצומת:
@@ -3500,7 +3500,7 @@ const DATA = {
                         ],
                         "925" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/925.png`,
                                 content: `קו עצירה –קו כתום
                                 לרוחב הנתיב:
@@ -3512,7 +3512,7 @@ const DATA = {
                         ],
                         "926" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/926.png`,
                                 content: `כווני הנסיעה המותרים
                                 בנתיב - חצים על פני
@@ -3529,7 +3529,7 @@ const DATA = {
                         ],
                         "927" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/927.png`,
                                 content: `נתיב נסיעה העומד
                                 להסתיים - חצים
@@ -3540,7 +3540,7 @@ const DATA = {
                         ],
                         "928" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/928.png`,
                                 content: `איי תנועה )בצורות
                                 שונות(, מסומנים על
@@ -3551,7 +3551,7 @@ const DATA = {
                         ],
                         "929" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/929.png`,
                                 content: `מחסום:
                                 הדרך חסומה.
@@ -3562,7 +3562,7 @@ const DATA = {
                         ],
                         "930" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/930.png`,
                                 content: `עמודי הכוונה, בצד
                                 הכביש:
@@ -3573,7 +3573,7 @@ const DATA = {
                         ],
                         "931" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/931.png`,
                                 content: `חרוט להכוונה או
                                 לסימון מכשול:
@@ -3585,7 +3585,7 @@ const DATA = {
                         ],
                         "932" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/932.png`,
                                 content: `פנס מהבהב בצבע כתום
                                  לסימון, איתות ואזהרה.  `
@@ -3593,7 +3593,7 @@ const DATA = {
                         ],
                         "933" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/933.png`,
                                 content: ` לוח נייד מהבהב:
                                 איתות, אזהרה והכוונה. `
@@ -3601,7 +3601,7 @@ const DATA = {
                         ],
                         "934" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/934.png`,
                                 content: `לוח נייד מהבהב:
                                 הכביש סגור. `
@@ -3609,7 +3609,7 @@ const DATA = {
                         ],
                         "935" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/935.png`,
                                 content: `מפרץ לעצירה במצב חירום באתר עבודה. `
                             },
@@ -3618,551 +3618,551 @@ const DATA = {
                     "סמלים": {
                         "ס-4" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/4.png`,
                                 content: `מרכז האזור, העיר, המקום. `
                             },
                         ],
                         "ס-5" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/5.png`,
                                 content: ` כביש או נתיב אגרה.  `
                             },
                         ],
                         "ס-6" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/6.png`,
                                 content: `מעבר עילי להולכי רגל )עם מדרגות(.  `
                             },
                         ],
                         "ס-7" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/7.png`,
                                 content: `מעבר עילי להולכי רגל )עם כבש(. `
                             },
                         ],
                         "ס-8" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/8.png`,
                                 content: `מעבר תחתי להולכי רגל )עם מדרגות(.  `
                             },
                         ],
                         "ס-9" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/9.png`,
                                 content: `מעבר תחתי להולכי רגל )עם כבש(.`
                             },
                         ],
                         "ס-10" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/10.png`,
                                 content: `הולכי רגל.`
                             },
                         ],
                         "ס-11" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/11.png`,
                                 content: `לחצן הולכי רגל לצורך חציה. `
                             },
                         ],
                         "ס-12" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/12.png`,
                                 content: ` נגישות לנכים. `
                             },
                         ],
                         "ס-13" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/13.png`,
                                 content: `מצלמה למטרות אכיפה. `
                             },
                         ],
                         "ס-14" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/14.png`,
                                 content: `גרירת רכב.`
                             },
                         ],
                         "15-ס" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/15.png`,
                                 content: `יחידת משטרה `
                             },
                         ],
                         "ס-16" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/16.png`,
                                 content: `מנהרה  `
                             },
                         ],
                         "ס-17" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/17.png`,
                                 content: `מעבר גבול.`
                             },
                         ],
                         "ס-20" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/20.png`,
                                 content: `מחלף`
                             },
                         ],
                         "ס-21" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/21.png`,
                                 content: `צומת הצטלבות  `
                             },
                         ],
                         "ס-22" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/22.png`,
                                 content: `צומת קמץ ימינה `
                             },
                         ],
                         "ס-23" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/23.png`,
                                 content: `צומת קמץ שמאלה `
                             },
                         ],
                         "ס-24" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/24.png`,
                                 content: `צומת קמץ  `
                             },
                         ],
                         "ס-25" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/25.png`,
                                 content: `צומת קמץ ימינה ואחר כך שמאלה  `
                             },
                         ],
                         "ס-26" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/26.png`,
                                 content: `צומת קמץ שמאלה ואחר כך ימינה  `
                             },
                         ],
                         "ס-27" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/27.png`,
                                 content: `צומת קמץ לפנים ואחר כך משמאל `
                             },
                         ],
                         "ס-28" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/28.png`,
                                 content: `צומת קמץ לפנים ואחר כך מימין `
                             },
                         ],
                         "ס-29" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/29.png`,
                                 content: `מעגל תנועה `
                             },
                         ],
                         "ס-30" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/30.png`,
                                 content: `תחנת תידלוק.`
                             },
                         ],
                         "ס-31" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/31.png`,
                                 content: `פתוח 24 שעות `
                             },
                         ],
                         "ס-32" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/32.png`,
                                 content: `דלק, שרות עצמי.`
                             },
                         ],
                         "ס-33" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/33.png`,
                                 content: `תיקון תקרים. `
                             },
                         ],
                         "ס-34" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/34.png`,
                                 content: `מוסך, תיקוני דרך, סיכה.`
                             },
                         ],
                         "ס-35" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/35.png`,
                                 content: `רחיצת רכב. `
                             },
                         ],
-
+                
                         "ס-36" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/36.png`,
                                 content: `דלקן – דלק. `
                             },
                         ],
                         "ס-37" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/37.png`,
                                 content: ` פזומט.  `
                             },
                         ],
-
+                
                         "ס-38" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/38.png`,
                                 content: `ספידומט.`
                             },
                         ],
                         "ס-39" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/39.png`,
                                 content: `דלקן – סונול. `
                             },
                         ],
-
+                
                         "ס-40" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/40.png`,
                                 content: `שדה תעופה. `
                             },
                         ],
                         "ס-41" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/41.png`,
                                 content: `נמל.`
                             },
                         ],
-
+                
                         "ס-42" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/42.png`,
                                 content: `רכבת.`
                             },
                         ],
                         "ס-43" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/43.png`,
                                 content: `רכבת מקומית. `
                             },
                         ],
                         "ס-44" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/44.png`,
                                 content: `אוטובוס. `
                             },
                         ],
-
+                
                         "ס-45" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/45.png`,
                                 content: `מונית. `
                             },
                         ],
                         "ס-46" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/46.png`,
                                 content: `רכב פרטי `
                             },
                         ],
-
+                
                         "ס-47" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/47.png`,
                                 content: `משאית. `
                             },
                         ],
                         "ס-48" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/48.png`,
                                 content: `אופנוע. `
                             },
                         ],
                         "ס-49" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/49.png`,
                                 content: `אופניים, כהדרתם בסעיף 1 להודעה זו.`
                             },
                         ],
-
+                
                         "ס-50" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/50.png`,
                                 content: `רכבל `
                             },
                         ],
                         "ס-51" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/51.png`,
                                 content: ` חניה.  `
                             },
                         ],
                         "ס-52" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/52.png`,
                                 content: `חניה מקורה. `
                             },
                         ],
                         "ס-53" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/53.png`,
                                 content: ` חנה וסע. `
                             },
                         ],
-
+                
                         "ס-54" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/54.png`,
                                 content: `מסוף מטענים.`
                             },
                         ],
                         "ס-55" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/55.png`,
                                 content: ` אזור תעשיה. `
                             },
                         ],
-
+                
                         "ס-56" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/56.png`,
                                 content: `מסוף לטיסות נוחתות.  `
                             },
                         ],
                         "ס-57" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/57.png`,
                                 content: `מסוף לטיסות ממריאות. `
                             },
                         ],
                         "ס-58" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/58.png`,
                                 content: `בית חולים ללא חדר מיון. `
                             },
                         ],
-
+                
                         "ס-59" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/59.png`,
                                 content: ` בית חולים עם חדר מיון כללי `
                             },
                         ],
-
+                
                         "ס-60" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/60.png`,
                                 content: ` עזרה ראשונה`
                             },
                         ],
                         "ס-61" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/61.png`,
                                 content: `טלפון`
                             },
                         ],
-
+                
                         "ס-62" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/62.png`,
                                 content: `מסעדה `
                             },
                         ],
                         "ס-63" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/63.png`,
                                 content: `בית קפה/מזנון.`
                             },
                         ],
                         "ס-64" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/64.png`,
                                 content: `קוי תחבורה ציבורית בשעות הלילה. `
                             },
                         ],
                         "ס-65" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/65.png`,
                                 content: `השכרת רכב. `
                             },
                         ],
                         "ס-66" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/66.png`,
                                 content: `אזור מנוחה.`
                             },
                         ],
                         "ס-67" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/67.png`,
                                 content: ` מקום להעלאה ולהורדת נוסעים.  `
                             },
                         ],
                         "ס-68" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/68.png`,
                                 content: `עמדת תשלום.  `
                             },
                         ],
                         "ס-69" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/69.png`,
                                 content: ` מוסד אקדמי. `
                             },
                         ],
                         "ס-70" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/70.png`,
                                 content: `עמדת מודיעין או תחנת מידע למטייל.`
                             },
                         ],
                         "ס-71" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/71.png`,
                                 content: `מלון או בית הארח ה או כפר נופש.`
                             },
                         ],
                         "ס-72" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/72.png`,
                                 content: ` אכסניה או אכסניית נוער. `
                             },
                         ],
                         "ס-73" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/73.png`,
                                 content: `אתר מחנאות )קמפינג( או חניון לילה. `
                             },
                         ],
                         "ס-74" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/74.png`,
                                 content: `חקלאות תיירותית. `
                             },
                         ],
                         "ס-75" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/75.png`,
                                 content: `לינה כפרית. `
                             },
                         ],
                         "ס-80" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/80.png`,
                                 content: `אתר תיירות.  `
                             },
                         ],
                         "ס-81" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/81.png`,
                                 content: `אתר ארכיאולוגי או עתיקות .`
                             },
                         ],
                         "ס-82" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/82.png`,
                                 content: `אתר קדוש ליהודים. `
                             },
                         ],
                         "ס-83" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/83.png`,
                                 content: `אתר קדוש למוסלמים.`
                             },
                         ],
                         "ס-84" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/84.png`,
                                 content: `אתר קדוש לדרוזים. `
                             },
                         ],
                         "ס-85" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/85.png`,
                                 content: `אתר קדוש לנוצרים. `
                             },
                         ],
                         "ס-86" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/86.png`,
                                 content: `מבנה או אזור בעל עניין היסטורי או
                                  אדריכלי.  `
@@ -4170,56 +4170,56 @@ const DATA = {
                         ],
                         "ס-87" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/87.png`,
                                 content: `אתר הנצחה. `
                             },
                         ],
                         "ס-88" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/88.png`,
                                 content: ` מוזיאון. `
                             },
                         ],
                         "ס-89" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/89.png`,
                                 content: `גלריה או סדנא לדברי אמנות יד. `
                             },
                         ],
                         "ס-90" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/90.png`,
                                 content: `גן לאומי או שמורת טבע. `
                             },
                         ],
                         "ס-91" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/91.png`,
                                 content: `שביל תנ"ך. `
                             },
                         ],
                         "ס-92" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/92.png`,
                                 content: `אתר מורשת עולמית.  `
                             },
                         ],
                         "ס-93" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/93.png`,
                                 content: `יקב.`
                             },
                         ],
                         "ס-100" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/100.png`,
                                 content: `דרך מסומנת לטיול המיועדת לרכב 4X4
                                 בלבד. `
@@ -4227,7 +4227,7 @@ const DATA = {
                         ],
                         "ס-101" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/101s.png`,
                                 content: `יער, חורש או פארק שהוכשר לביקורי
                                  מטיילים.`
@@ -4235,159 +4235,159 @@ const DATA = {
                         ],
                         "ס-102" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/102s.png`,
                                 content: `מרינה או מעגן מוסדר. `
                             },
                         ],
                         "ס-103" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/103s.png`,
                                 content: `אתר מרחצאות מוסדר. `
                             },
                         ],
                         "ס-104" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/104s.png`,
                                 content: `מצפה או נקודת תצפית נוף.  `
                             },
                         ],
                         "ס-105" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/105s.png`,
                                 content: `אתר בילוי ואכילה בשטח פתוח. `
                             },
                         ],
                         "ס-106" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/106s.png`,
                                 content: `טיולי ג'יפים.  `
                             },
                         ],
                         "ס-107" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/107s.png`,
                                 content: ` מסלול הליכה מוסדר.  `
                             },
                         ],
                         "ס-108" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/108s.png`,
                                 content: `מקום מוסדר לטיפוס הרים או גלישת חבל.  `
                             },
                         ],
                         "ס-109" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/109s.png`,
                                 content: `חוות סוסים או שירותי רכיבה. `
                             },
                         ],
                         "ס-110" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/110s.png`,
                                 content: `אתר מוסדר לדאייה בגלשן או מצנחי רחיפה.  `
                             },
                         ],
                         "ס-111" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/111s.png`,
                                 content: `נחל `
                             },
                         ],
                         "ס-112" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/112s.png`,
                                 content: `מקום מוסדר לדייג. `
                             },
                         ],
                         "ס-113" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/113s.png`,
                                 content: `אתר צפרות. `
                             },
                         ],
                         "ס-114" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/114s.png`,
                                 content: `גן חיות`
                             },
                         ],
                         "ס-115" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/115s.png`,
                                 content: `חוף רחצה מוסדר. `
                             }                     
                           ],
                         "ס-116" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/116s.png`,
                                 content: ` בריכת שחייה לרשות הציבור.`
                             },
                         ],
                         "ס-117" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/117s.png`,
                                 content: `אתר ספורט ימי.  `
                             },
                         ],
                         "ס-118" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/118s.png`,
                                 content: ` מסלול לרכיבה על אופני הרים. `
                             },
                         ],
                         "ס-119" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/119s.png`,
                                 content: ` מרכז ספורט. `
                             },
                         ],
                         "ס-120" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/120s.png`,
                                 content: `אתר גלישה.`
                             },
                         ],
                         "ס-130" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/130s.png`,
                                 content: ` עמדת טעינה לרכב חשמלי `
                             },
                         ],
                         "ס-131" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/131s.png`,
                                 content: `תחנת החלפת מצבר לרכב חשמלי `
                             },
                         ],
                         "ס-132" : [
                             {
-                                cardType: `picAndText`,
+                                cardType: `squarePicsAndText`,
                                 pic: `../assets/images/signs/132s.png`,
                                 content: ` תחנת טעינה והחלפת מצבר לרכב חשמלי `
                             },
                         ],
-
+                
                     },
                 }
             },
