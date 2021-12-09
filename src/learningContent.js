@@ -4391,12 +4391,9 @@ const DATA = {
                     },
                 }
             },
-
-
-
             //מצגת 1
             "הגדרת מושגים": {
-                "learningContent": {
+                learningContent: {
                     "הקדמה": {
                         "הקדמה": [ 
                             {
@@ -5279,8 +5276,8 @@ const DATA = {
                         "פניה ימינה" : [
                             {
                                 cardType: `twoSquarePicsAndText`,    
-                                pic1: `../assets/images/pics/photo9.jpg`,
-                                pic2: `../assets/images/pics/photo7.jpg`,
+                                pic1: `../assets/images/pics/photo9.png`,
+                                pic2: `../assets/images/pics/photo7.png`,
                                 content: `פניות ימינה יתבצעו באופן הבא:
                                 מימין לימין בצורה חדה. שים לב- פניה ימינה מותרת <b>מכל נתיב אשר מיועד לפניה ימינה</b>.
                                 `
@@ -5297,14 +5294,14 @@ const DATA = {
                         "פניות מכביש חד סטרי" : [
                             {
                                 cardType: `picAndText`,    
-                                pic: `../assets/images/pics/photo1.jpg`, 
+                                pic: `../assets/images/pics/photo1.png`, 
                                 content: `<b>לכביש חד סטרי - משמאל לשמאל</b>, הכוונה היא מחלקו השמאלי של הנתיב אל חלקו השמאלי בכיוון הנסיעה.
                                 `
                             },
                             {
                                 cardType: `twoPics`,    
-                                pic1: `../assets/images/pics/photo8.jpg`, 
-                                pic2: `../assets/images/pics/photo2.jpg`, 
+                                pic1: `../assets/images/pics/photo8.png`, 
+                                pic2: `../assets/images/pics/photo2.png`, 
                                 content1: `<b>לכביש דו סטרי </b>- תמיד לנתיב השמאלי ביותר בקשת רחבה, לצד הימני (במקרה של נתיב אחד בלבד).
                                 `,
                                 content2: `או לנתיב השמאלי ביותר לכייון הנסיעה: 
@@ -5314,15 +5311,15 @@ const DATA = {
                         "פניות מכביש דו סטרי" : [
                             {
                                 cardType: `twoPics`,    
-                                pic1: `../assets/images/pics/photo3.jpg`, 
-                                pic2: `../assets/images/pics/photo4.jpg`,
+                                pic1: `../assets/images/pics/photo3.png`, 
+                                pic2: `../assets/images/pics/photo4.png`,
                                 content1: `לכביש חד סטרי קרוב למרכז הכביש.`, 
                                 content2: `לכביש דו סטרי ממרכז הכביש לנתיב השמאלי ביותר לאותו כיוון נסיעה.
                                 `
                             },
                             {
                                 cardType: `picAndText`,    
-                                pic: `../assets/images/pics/photo5.jpg`,
+                                pic: `../assets/images/pics/photo5.png`,
                                 content: `במידה והצומת מרומזרת, ממרכז הכביש בקשת רחבה לנתיב הימני ביותר לאותו כיוון נסיעה.
                                 `
                             },
@@ -5340,7 +5337,7 @@ const DATA = {
                         "פניות פרסה" : [
                             {
                                 cardType: `picAndText`,    
-                                pic: `../assets/images/pics/photo6.jpg`,
+                                pic: `../assets/images/pics/photo6.png`,
                                 content: `פנית פרסה היא פניה בה <b>חוזר הנהג אל הכיוון ממנו מגיע</b>. 
                                 פניית פרסה מותרת בתנאים הבאים:
                                 <ol>
@@ -7496,6 +7493,7 @@ const DATA = {
     "רכב משא": {
         "icon": "",
         "questions": [],
+        amountOfQuestions: 5,
         lessons: {
             // מצגת 15
             "הובלת נוסעים ומטען" : {
