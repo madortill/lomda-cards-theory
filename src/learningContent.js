@@ -377,7 +377,7 @@ const DATA = {
             //     trueOrFalse: true
             // }
         ],
-        "amountOfQuestions": 10,
+        "amountOfQuestions": 9,
         lessons: {
             //תמרורים
             "תמרורים": {
@@ -5304,7 +5304,7 @@ const DATA = {
                                 pic2: `../assets/images/pics/photo2.png`, 
                                 content1: `<b>לכביש דו סטרי </b>- תמיד לנתיב השמאלי ביותר בקשת רחבה, לצד הימני (במקרה של נתיב אחד בלבד).
                                 `,
-                                content2: `או לנתיב השמאלי ביותר לכייון הנסיעה: 
+                                content2: `או לנתיב השמאלי ביותר לכיוון הנסיעה: 
                                 `
                             },
                         ],
@@ -7493,7 +7493,7 @@ const DATA = {
     "רכב משא": {
         "icon": "",
         "questions": [],
-        amountOfQuestions: 5,
+        amountOfQuestions: 4,
         lessons: {
             // מצגת 15
             "הובלת נוסעים ומטען" : {
