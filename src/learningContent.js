@@ -5293,13 +5293,13 @@ const DATA = {
                         ],
                         "פניות מכביש חד סטרי" : [
                             {
-                                cardType: `picAndText`,    
+                                cardType: `squarePicsAndText`,    
                                 pic: `../assets/images/pics/photo1.png`, 
                                 content: `<b>לכביש חד סטרי - משמאל לשמאל</b>, הכוונה היא מחלקו השמאלי של הנתיב אל חלקו השמאלי בכיוון הנסיעה.
                                 `
                             },
                             {
-                                cardType: `twoPics`,    
+                                cardType: `twoPicsSquare`,    
                                 pic1: `../assets/images/pics/photo8.png`, 
                                 pic2: `../assets/images/pics/photo2.png`, 
                                 content1: `<b>לכביש דו סטרי </b>- תמיד לנתיב השמאלי ביותר בקשת רחבה, לצד הימני (במקרה של נתיב אחד בלבד).
@@ -5310,7 +5310,7 @@ const DATA = {
                         ],
                         "פניות מכביש דו סטרי" : [
                             {
-                                cardType: `twoPics`,    
+                                cardType: `twoPicsSquare`,    
                                 pic1: `../assets/images/pics/photo3.png`, 
                                 pic2: `../assets/images/pics/photo4.png`,
                                 content1: `לכביש חד סטרי קרוב למרכז הכביש.`, 
@@ -5318,7 +5318,7 @@ const DATA = {
                                 `
                             },
                             {
-                                cardType: `picAndText`,    
+                                cardType: `squarePicsAndText`,    
                                 pic: `../assets/images/pics/photo5.png`,
                                 content: `במידה והצומת מרומזרת, ממרכז הכביש בקשת רחבה לנתיב הימני ביותר לאותו כיוון נסיעה.
                                 `
@@ -5336,7 +5336,7 @@ const DATA = {
                         ],
                         "פניות פרסה" : [
                             {
-                                cardType: `picAndText`,    
+                                cardType: `squarePicsAndText`,    
                                 pic: `../assets/images/pics/photo6.png`,
                                 content: `פנית פרסה היא פניה בה <b>חוזר הנהג אל הכיוון ממנו מגיע</b>. 
                                 פניית פרסה מותרת בתנאים הבאים:
@@ -7813,6 +7813,14 @@ CARD_TYPES.twoSquarePicsAndText = {
         card.querySelector(".content").innerHTML = json.content;
         card.querySelector(".squarePic1").src = json.pic1;
         card.querySelector(".squarePic2").src = json.pic2;
+   }
+}
+CARD_TYPES.twoPicsSquare = {
+    init(card, json) {
+        card.querySelector(".squarePic1").src = json.pic1;
+        card.querySelector(".content1").innerHTML = json.content1;
+        card.querySelector(".squarePic2").src = json.pic2;
+        card.querySelector(".content2").innerHTML = json.content2;
    }
 }
 // לתמונות ריבועיות
