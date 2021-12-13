@@ -20,7 +20,7 @@ const TIME_FOR_EXAM = "30:00";
 
 const DATA = { 
     "חוק ותמרורים": {
-        "icon": "",
+        "icon": "../assets/images/general/icons/lights.png",
         "questions": [
             {
                 type: "multiple",
@@ -58,7 +58,7 @@ const DATA = {
             //     trueOrFalse: true
             // }
         ],
-        "amountOfQuestions": 9,
+        "amountOfQuestions": 14,
         lessons: {
             //תמרורים
             "תמרורים": {
@@ -5905,7 +5905,8 @@ const DATA = {
         }
     },
     "בטיחות": {
-        "icon": "",
+        "icon": "../assets/images/general/icons/Helmet.png",
+        //amountOfQuestions = 6,
         "questions": [],
         lessons: {
             //מצגת 11
@@ -6817,7 +6818,8 @@ const DATA = {
         }
     },
     "הכרת הרכב": {
-        "icon": "",
+        "icon": "../assets/images/general/icons/car.png",
+        // amountOfQuestions = 5,
         "questions": [],
         lessons: {
             //מצגת 24
@@ -7172,9 +7174,9 @@ const DATA = {
         }
     },
     "רכב משא": {
-        "icon": "",
+        "icon": "../assets/images/general/icons/truck.png",
         "questions": [],
-        amountOfQuestions: 4,
+        amountOfQuestions: 5,
         lessons: {
             // מצגת 15
             "הובלת נוסעים ומטען" : {
