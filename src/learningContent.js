@@ -16,6 +16,7 @@ const TITLE = "נוהגים 6/6 לומדים תיאוריה";
 const AMOUNT_EXAM_QUESTIONS = 30;
 
 /************************      הכנס כמות זמן התחלתית של המבחן      ***********************/
+
 const TIME_FOR_EXAM = "30:00";
 
 const DATA = { 
