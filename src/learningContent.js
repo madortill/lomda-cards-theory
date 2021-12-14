@@ -10,7 +10,7 @@
 
 
 /************************      הכנס כותרת ראשית שהיא שם הלומדה      ***********************/
-const TITLE = "נוהגים 6/6 לומדים תיאוריה";
+const TITLE = "נוהגים 6/6 לומדים תיאוריה"
 
 /****     הכנס כמות כוללת מקסימלית של שאלות למבחן. יש לשים לב לכמות השאלות הקיימות מהבהד - שלא כמות שלא קיימת   *******/
 const AMOUNT_EXAM_QUESTIONS = 30;
@@ -20,6 +20,7 @@ const AMOUNT_EXAM_QUESTIONS = 30;
 const TIME_FOR_EXAM = "30:00";
 
 const DATA = { 
+
     "חוק ותמרורים": {
         "icon": "../assets/images/general/icons/lights.png",
         "questions": [
