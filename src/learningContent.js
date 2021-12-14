@@ -17974,7 +17974,7 @@ const DATA = {
     },
     "בטיחות": {
         "icon": "../assets/images/general/icons/Helmet.png",
-        amountOfQuestions = 6,
+        "amountOfQuestions" : 6,
         "questions": [
             {
               "ans1": "שאנו בקיאים בהפעלתו ובשימוש בו.",
@@ -22838,7 +22838,7 @@ const DATA = {
     },
     "הכרת הרכב": {
         "icon": "../assets/images/general/icons/car.png",
-        amountOfQuestions = 5,
+        "amountOfQuestions" : 5,
         "questions": [
             {
               "ans1": "אין לחגור חגורות בטיחות אם יש תקלה במערכת הכריות.",
@@ -24294,7 +24294,7 @@ const DATA = {
         }
     },
     "רכב משא": {
-      amountOfQuestions = 5,
+      "amountOfQuestions" : 5,
         "icon": "../assets/images/general/icons/truck.png",
         "questions": [
             {
@@ -25190,7 +25190,7 @@ const DATA = {
               "corectAns": "ans4"
             }
           ],
-        amountOfQuestions: 89,
+        "amountOfQuestions": 89,
         lessons: {
             // מצגת 15
             "הובלת נוסעים ומטען" : {
