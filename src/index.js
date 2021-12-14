@@ -1,6 +1,6 @@
 // כללי
 var SUBJECTS_TITLES;
-const AMOUNT_OF_TOTAL_QUESTIONS = 20;
+const AMOUNT_OF_TOTAL_QUESTIONS = 30;
 var blurAmount = "10px";
 //
 var selectedSubjects = [];
@@ -1859,6 +1859,7 @@ function endExam(amountOfCorrectAnswers) {
     let img;
     let date;
     let grade;
+    let pass;
 
     name = `${firstName} ${lastName}`;
     date = new Date();
@@ -1873,7 +1874,11 @@ function endExam(amountOfCorrectAnswers) {
         img = "../assets/images/general/finish_popup/check_icon.svg"
     else 
         img = "../assets/images/general/finish_popup/x_icon.svg"                  
-
+    if (amountOfCorrectAnswers >= 36) {
+        pass = "כל הכבוד! עברת את המבחן."
+    }
+    else 
+        pass = "נכשלת, יש לך יותר מ-4 טעויות."
     let finishPopup =
         El("div", { cls: "dark" },
             // כל הקלף
@@ -1882,9 +1887,11 @@ function endExam(amountOfCorrectAnswers) {
                 // כותרות
                 El("div", { cls: "title-popup" }, name),
                 El("div", { cls: "popup-sub-titles" },
-                    El("div", { cls: "text1-popup" }, "ציון: " + grade),
-                    El("div", { cls: "text2-popup" }, `${currTime} | ${todayDate}`),
-                ),
+                El("div", { cls: "text1-popup" }, pass),
+                El("div", { cls: "text2-popup" }, `${currTime} | ${todayDate}`)),
+
+                
+                
                 El("div", { cls: "instructions-practice" },
                     // בלוק 1
                     El("div", { cls: "grey-line" }),
