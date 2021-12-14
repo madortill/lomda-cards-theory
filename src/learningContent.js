@@ -22822,17 +22822,6 @@ const DATA = {
                     },
                 }
             },
-
-            "": {
-                /* cardType: `picAndText`,
-                  pic: `../assets/images/pics/x.png`, **/
-                "" : [
-                    {
-                        cardType: `text`,
-                        content: ``
-                    },
-                ],
-            },
         
         }
     },
@@ -25190,7 +25179,6 @@ const DATA = {
               "correctAns": "ans4"
             }
           ],
-        "amountOfQuestions": 89,
         lessons: {
             // מצגת 15
             "הובלת נוסעים ומטען" : {
@@ -25320,17 +25308,6 @@ const DATA = {
                                 בהובלת מטען <b>ארוך וגמיש</b>, יש להקפיד שהמטען <b>לא יגרר</b> על פני הכביש. 
                                 נהג רכב מסחרי שמשקלו הכולל המותר 8000 ק"ג, לא ינהג יותר<b> מ-12 שעות </b>בכל תקופה של 24 שעות <b>ולא יותר מ- 68 שעות</b> בתקופה של 7 ימים.
                                 `
-                            },
-                        ],
-                    },
-
-                    "": {
-                        /* cardType: `picAndText`,
-                          pic: `../assets/images/pics/x.png`, **/
-                        "" : [
-                            {
-                                cardType: `text`,
-                                content: ``
                             },
                         ],
                     },
