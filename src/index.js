@@ -690,8 +690,9 @@ function checkAnswerBinary(selectedAnswer, event) {
     }
     // בודק אם התשובה נכונה
     if (QUESTIONS[currentQuestion].trueOrFalse && selectedAnswer === "right" ||
-        !QUESTIONS[currentQuestion].trueOrFalse && selectedAnswer === "wrong") {
-        // green line
+       !QUESTIONS[currentQuestion].trueOrFalse && selectedAnswer === "wrong") {
+    // if (){ 
+    //     // green line
         let greenLine = El("img", { attributes: { src: "../assets/images/general/rightAnswer.svg" }, cls: "line" });/////////////
         document.querySelector(".question").after(greenLine);
         points++;
@@ -699,6 +700,7 @@ function checkAnswerBinary(selectedAnswer, event) {
     }
     else {
         // red line
+        
         let redLine = El("img", { attributes: { src: "../assets/images/general/wrongAnswer.svg" }, cls: "line" });/////////////
         document.querySelector(".question").after(redLine);
     }
@@ -1873,7 +1875,7 @@ function endExam(amountOfCorrectAnswers) {
         img = "../assets/images/general/finish_popup/check_icon.svg"
     else 
         img = "../assets/images/general/finish_popup/x_icon.svg"                  
-    if (amountOfCorrectAnswers >= 36) {
+    if (amountOfCorrectAnswers >= 26) {
         pass = "כל הכבוד! עברת את המבחן."
     }
     else 
@@ -2183,14 +2185,44 @@ function subjectLearningPage(chosenLesson) {
     // יוצר כרטיסייה חדשה
     function generateCard(json, title, index) {
         // משכפל את הטמפלייט של הכרטיסייה
-        let template = document.querySelector(`.page.learning.content .templates > .${getType(json[index].cardType)}`);
+        console.log(json[index]);
+        console.log(index);
+        console.log(json);
+        let template;
+        let jsonNoCard; //json obj without card parameter
+        let jsonObj; //json card parameter
+        //if(typeof(json[index].cardType) !== "undefined")
+       // {
+           try
+           {
+            template = document.querySelector(`.page.learning.content .templates > .${getType(json[index].cardType)}`);
+            jsonObj  = json[index].cardType;
+            jsonNoCard = json[index];
+           }
+       // }
+      //  else
+      //  {
+          catch
+          {
+              //interate over json
+            for(var key in json)
+            {
+                //get value from json
+                var value = json[key];
+                console.log(value);
+            }
+            template = document.querySelector(`.page.learning.content .templates > .${getType(value[index].cardType)}`);
+            jsonObj  = value[index].cardType;
+            jsonNoCard = value[index];
+          }
+      //  }
         // יוצר אלמנט של קונטיינר לתוכן (כדי שתהיה גלילה יפה בתוך הכרטיסייה)
         let container = El("div", { cls: "content-container" });
-        let card = El("div", { classes: ["card", getType(json[index].cardType)] }, container);
+        let card = El("div", { classes: ["card", getType(jsonObj)] }, container);
         container.append(template.content.cloneNode(true));
 
-        let cardType = CARD_TYPES[json[index].cardType];
-        cardType.init(card, json[index]);
+        let cardType = CARD_TYPES[jsonObj];
+        cardType.init(card, jsonNoCard);
         card.querySelector(".title").innerHTML = title;
         if (json.length > 1) {
             let buttons =
